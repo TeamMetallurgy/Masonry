@@ -1,0 +1,7 @@
+stone_tiled	Tiled Stone	ROCK	STONE	1.5F	6.0F
+stone_pavers	Stone Pavers	ROCK	STONE	1.5F	6.0F
+stone_panels	Stone Panels	ROCK	STONE	1.5F	6.0F
+stone_engraved	Engraved Stone	ROCK	STONE	1.5F	6.0F
+stone_rough_cut	Rough Cut Stone	ROCK	STONE	1.5F	6.0F
+stone_cut	Cut Stone	ROCK	STONE	1.5F	6.0F
+stone_carved	Carved Stone	ROCK	STONE	1.5F	6.0F

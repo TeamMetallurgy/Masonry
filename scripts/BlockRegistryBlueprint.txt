@@ -1,0 +1,1 @@
+public static Block {API_NAME} = register("{API_NAME}", new Block(Block.Properties.create(Material.{MATERIAL}, MaterialColor.{MATERIAL_COLOR}).hardnessAndResistance({HARDNESS}, {RESISTANCE})));

@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/{API_NAME_PARTICLE}",
+        "down": "masonry:block/{API_NAME_DOWN}",
+        "up": "masonry:block/{API_NAME_UP}",
+        "north": "masonry:block/{API_NAME_NORTH}",
+        "east": "masonry:block/{API_NAME_EAST}",
+        "south": "masonry:block/{API_NAME_SOUTH}",
+        "west": "masonry:block/{API_NAME_WEST}"
+    }
+}
