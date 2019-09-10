@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/obsidian_tiled",
+        "down": "masonry:block/obsidian_tiled",
+        "up": "masonry:block/obsidian_tiled",
+        "north": "masonry:block/obsidian_tiled",
+        "east": "masonry:block/obsidian_tiled",
+        "south": "masonry:block/obsidian_tiled",
+        "west": "masonry:block/obsidian_tiled"
+    }
+}

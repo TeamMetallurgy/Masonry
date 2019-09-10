@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/stone_carved_villager",
+        "down": "masonry:block/stone_carved_bottom",
+        "up": "masonry:block/stone_carved_bottom",
+        "north": "masonry:block/stone_carved_villager",
+        "east": "masonry:block/stone_carved_villager",
+        "south": "masonry:block/stone_carved_villager",
+        "west": "masonry:block/stone_carved_villager"
+    }
+}

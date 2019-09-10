@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/stone_carved_wither",
+        "down": "masonry:block/stone_carved_bottom",
+        "up": "masonry:block/stone_carved_bottom",
+        "north": "masonry:block/stone_carved_wither",
+        "east": "masonry:block/stone_carved_wither",
+        "south": "masonry:block/stone_carved_wither",
+        "west": "masonry:block/stone_carved_wither"
+    }
+}

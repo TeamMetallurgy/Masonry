@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/netherrack_tiled",
+        "down": "masonry:block/netherrack_tiled",
+        "up": "masonry:block/netherrack_tiled",
+        "north": "masonry:block/netherrack_tiled",
+        "east": "masonry:block/netherrack_tiled",
+        "south": "masonry:block/netherrack_tiled",
+        "west": "masonry:block/netherrack_tiled"
+    }
+}

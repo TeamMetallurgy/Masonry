@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/dark_prismarine_tiled",
+        "down": "masonry:block/dark_prismarine_tiled",
+        "up": "masonry:block/dark_prismarine_tiled",
+        "north": "masonry:block/dark_prismarine_tiled",
+        "east": "masonry:block/dark_prismarine_tiled",
+        "south": "masonry:block/dark_prismarine_tiled",
+        "west": "masonry:block/dark_prismarine_tiled"
+    }
+}

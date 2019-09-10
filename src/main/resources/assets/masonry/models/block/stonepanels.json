@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/stone_panels",
+        "down": "masonry:block/stone_panels",
+        "up": "masonry:block/stone_panels",
+        "north": "masonry:block/stone_panels",
+        "east": "masonry:block/stone_panels",
+        "south": "masonry:block/stone_panels",
+        "west": "masonry:block/stone_panels"
+    }
+}

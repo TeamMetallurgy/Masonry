@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/end_stone_tiled",
+        "down": "masonry:block/end_stone_tiled",
+        "up": "masonry:block/end_stone_tiled",
+        "north": "masonry:block/end_stone_tiled",
+        "east": "masonry:block/end_stone_tiled",
+        "south": "masonry:block/end_stone_tiled",
+        "west": "masonry:block/end_stone_tiled"
+    }
+}

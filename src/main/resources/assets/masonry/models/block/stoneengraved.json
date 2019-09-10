@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/stone_engraved_side",
+        "down": "masonry:block/stone_engraved_top",
+        "up": "masonry:block/stone_engraved_top",
+        "north": "masonry:block/stone_engraved_side",
+        "east": "masonry:block/stone_engraved_side",
+        "south": "masonry:block/stone_engraved_side",
+        "west": "masonry:block/stone_engraved_side"
+    }
+}

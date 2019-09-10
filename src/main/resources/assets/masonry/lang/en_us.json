@@ -1,3 +1,27 @@
 {
-  "block.masonry.devblock": "Dev Block"
+  "itemGroup.masonry" : "Masonry",
+
+  "block.masonry.devblock": "Dev Block",
+  "block.masonry.andesitetiled": "Tiled Andesite",
+  "block.masonry.darkprismarinetiled": "Tiled Dark Prismarine",
+  "block.masonry.dioritetiled": "Tiled Diorite",
+  "block.masonry.endstonetiled": "Tiled End Stone",
+  "block.masonry.granitetiled": "Tiled Granite",
+  "block.masonry.netherracktiled": "Tiled Netherrack",
+  "block.masonry.obsidiantiled": "Tiled Obsidian",
+  "block.masonry.prismarinetiled": "Tiled Prismarine",
+  "block.masonry.stonecarvedcreeper": "Carved Stone (Creeper)",
+  "block.masonry.stonecarvedderp": "Carved Stone (Derp)",
+  "block.masonry.stonecarvedvillager": "Carved Stone (Villager)",
+  "block.masonry.stonecarvedwither": "Carved Stone (Wither)",
+  "block.masonry.stonecarvedwriting": "Carved Stone (Writing)",
+  "block.masonry.stonecolumn": "Stone Column",
+  "block.masonry.stonecut": "Cut Stone",
+  "block.masonry.stoneengraved": "Engraved Stone",
+  "block.masonry.stonepanels": "Stone Panels",
+  "block.masonry.stonepavers": "Stone Pavers",
+  "block.masonry.stonepillar": "Stone Pillar",
+  "block.masonry.stonepolished": "Polished Stone",
+  "block.masonry.stoneroughcut": "Rough Cut Stone",
+  "block.masonry.stonetiled": "Tiled Stone"
 }
