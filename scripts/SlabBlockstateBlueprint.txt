@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/{BOTTOM}" },
+        "type=top": { "model": "masonry:block/{TOP}" },
+        "type=double": { "model": "masonry:block/{DOUBLE}" }
+    }
+}
