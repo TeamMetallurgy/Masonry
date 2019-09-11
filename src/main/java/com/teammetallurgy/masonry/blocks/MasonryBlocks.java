@@ -3,6 +3,7 @@ package com.teammetallurgy.masonry.blocks;
 import com.google.common.collect.Lists;
 import com.teammetallurgy.masonry.MasonryMain;
 import net.minecraft.block.Block;
+import net.minecraft.block.SlabBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
@@ -39,6 +40,8 @@ public class MasonryBlocks {
     public static Block STONE_POLISHED = register("stonepolished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_ROUGH_CUT = register("stoneroughcut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_TILED = register("stonetiled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
+
+    public static Block devSlabBlock = register("devslabblock", new SlabBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
 
 
     private static Block register(String registryName, Block thisBlock){

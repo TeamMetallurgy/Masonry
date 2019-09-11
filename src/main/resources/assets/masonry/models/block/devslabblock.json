@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "masonry:block/devblock",
+    "top": "masonry:block/devblock",
+    "side": "masonry:block/devblock"
+  }
+}

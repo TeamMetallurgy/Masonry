@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "masonry:block/devslabblock" },
+    "type=top": { "model": "masonry:block/devslabblocktop" },
+    "type=double": { "model": "masonry:block/devblock" }
+  }
+}
