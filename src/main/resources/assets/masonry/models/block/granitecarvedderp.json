@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/granite_carved_derp",
+        "down": "masonry:block/granite_carved_bottom",
+        "up": "masonry:block/granite_carved_bottom",
+        "north": "masonry:block/granite_carved_derp",
+        "east": "masonry:block/granite_carved_derp",
+        "south": "masonry:block/granite_carved_derp",
+        "west": "masonry:block/granite_carved_derp"
+    }
+}

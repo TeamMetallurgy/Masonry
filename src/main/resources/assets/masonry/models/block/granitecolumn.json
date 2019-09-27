@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/granite_column_side",
+        "down": "masonry:block/granite_column_top",
+        "up": "masonry:block/granite_column_top",
+        "north": "masonry:block/granite_column_side",
+        "east": "masonry:block/granite_column_side",
+        "south": "masonry:block/granite_column_side",
+        "west": "masonry:block/granite_column_side"
+    }
+}

@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/andesite_carved_wither",
+        "down": "masonry:block/andesite_carved_bottom",
+        "up": "masonry:block/andesite_carved_bottom",
+        "north": "masonry:block/andesite_carved_wither",
+        "east": "masonry:block/andesite_carved_wither",
+        "south": "masonry:block/andesite_carved_wither",
+        "west": "masonry:block/andesite_carved_wither"
+    }
+}
