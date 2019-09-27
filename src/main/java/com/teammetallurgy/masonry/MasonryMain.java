@@ -2,6 +2,7 @@ package com.teammetallurgy.masonry;
 
 import com.teammetallurgy.masonry.blocks.MasonryBlocks;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -19,7 +20,7 @@ public class MasonryMain {
     public static ItemGroup itemGroup = new ItemGroup("masonry"){
         @Override
         public ItemStack createIcon(){
-            return new ItemStack(MasonryBlocks.devBlock);
+            return new ItemStack(Blocks.STONECUTTER);
         }
     };
 

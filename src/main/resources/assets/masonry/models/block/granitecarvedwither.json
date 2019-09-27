@@ -3,7 +3,7 @@
     "textures": {
         "particle": "masonry:block/granite_carved_wither",
         "down": "masonry:block/granite_carved_bottom",
-        "up": "masonry:block/granite_carved_bottom",
+        "up": "masonry:block/granite_cut_top",
         "north": "masonry:block/granite_carved_wither",
         "east": "masonry:block/granite_carved_wither",
         "south": "masonry:block/granite_carved_wither",
