@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "masonry:andesite"
+  },
+  "result": "minecraft:andesite",
+  "cookingtime": 200
+}
