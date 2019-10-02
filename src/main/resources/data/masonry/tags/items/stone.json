@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "masonry:stonecarvedcreeper",
+    "masonry:stonecarvedderp",
+    "masonry:stonecarvedvillager",
+    "masonry:stonecarvedwither",
+    "masonry:stonecarvedwriting",
+    "masonry:stonecolumn",
+    "masonry:stonecut",
+    "masonry:stoneengraved",
+    "masonry:stonepanels",
+    "masonry:stonepavers",
+    "masonry:stonepillar",
+    "masonry:stonepolished",
+    "masonry:stoneroughcut",
+    "masonry:stonetiled"
+  ]
+}

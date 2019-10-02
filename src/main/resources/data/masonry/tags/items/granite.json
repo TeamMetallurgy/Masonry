@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "masonry:granitecarvedcreeper",
+    "masonry:granitecarvedderp",
+    "masonry:granitecarvedvillager",
+    "masonry:granitecarvedwither",
+    "masonry:granitecarvedwriting",
+    "masonry:granitecolumn",
+    "masonry:granitecut",
+    "masonry:graniteengraved",
+    "masonry:granitepanels",
+    "masonry:granitepavers",
+    "masonry:granitepillar",
+    "masonry:granitepolished",
+    "masonry:graniteroughcut",
+    "masonry:granitetiled"
+  ]
+}
