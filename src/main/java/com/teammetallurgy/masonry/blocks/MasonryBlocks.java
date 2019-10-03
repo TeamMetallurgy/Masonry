@@ -2,8 +2,7 @@ package com.teammetallurgy.masonry.blocks;
 
 import com.google.common.collect.Lists;
 import com.teammetallurgy.masonry.MasonryMain;
-import net.minecraft.block.Block;
-import net.minecraft.block.SlabBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
@@ -35,8 +34,8 @@ public class MasonryBlocks {
     public static Block STONE_CUT = register("stonecut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_ENGRAVED = register("stoneengraved", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_PANELS = register("stonepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block STONE_PAVERS = register("stonepavers", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block STONE_PILLAR = register("stonepillar", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
+    public static Block STONE_PAVERS = register("stonepavers", new GlazedTerracottaBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
+    public static Block STONE_PILLAR = register("stonepillar", new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_POLISHED = register("stonepolished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_ROUGH_CUT = register("stoneroughcut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_TILED = register("stonetiled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
@@ -49,8 +48,8 @@ public class MasonryBlocks {
     public static Block GRANITE_CUT = register("granitecut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_ENGRAVED = register("graniteengraved", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_PANELS = register("granitepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block GRANITE_PAVERS = register("granitepavers", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block GRANITE_PILLAR = register("granitepillar", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
+    public static Block GRANITE_PAVERS = register("granitepavers", new GlazedTerracottaBlock(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
+    public static Block GRANITE_PILLAR = register("granitepillar", new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_POLISHED = register("granitepolished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_ROUGH_CUT = register("graniteroughcut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_CARVED_CREEPER = register("andesitecarvedcreeper", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
@@ -62,14 +61,12 @@ public class MasonryBlocks {
     public static Block ANDESITE_CUT = register("andesitecut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_ENGRAVED = register("andesiteengraved", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_PANELS = register("andesitepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block ANDESITE_PAVERS = register("andesitepavers", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block ANDESITE_PILLAR = register("andesitepillar", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
+    public static Block ANDESITE_PAVERS = register("andesitepavers", new GlazedTerracottaBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
+    public static Block ANDESITE_PILLAR = register("andesitepillar", new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_POLISHED = register("andesitepolished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_ROUGH_CUT = register("andesiteroughcut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
 
-
-    public static Block devSlabBlock = register("devslabblock", new SlabBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-
+    //public static Block devSlabBlock = register("devslabblock", new SlabBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
 
     private static Block register(String registryName, Block thisBlock){
         thisBlock.setRegistryName(registryName);
