@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "masonry:netherrack"
+  },
+  "result": "minecraft:netherrack",
+  "cookingtime": 200
+}
