@@ -2,7 +2,7 @@
 $LootTableBlueprint = Get-Content -Path LootTableBlueprint.txt
 
 foreach($BlockInfo in $BlockData){
-    $ApiName,$_,$_,$_,$_,$_,$_,$_,$_,$_,$_,$_,$_ = $BlockInfo -split '\t'
+    $ApiName,$_ = $BlockInfo -split '\t'
     
     $ModelData = $LootTableBlueprint.Replace('{API_NAME}', $ApiName.Replace('_', ''))
     $ApiNameNoUnd = $ApiName.Replace('_', '')

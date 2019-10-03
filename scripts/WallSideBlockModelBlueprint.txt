@@ -1,0 +1,4 @@
+"parent": "block/template_wall_side",
+    "textures": {
+        "wall": "masonry:block/{API_NAME}"
+    }

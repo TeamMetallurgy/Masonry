@@ -1,0 +1,1 @@
+public static final Block {API_NAME_CAP}_WALL = register("{API_NAME}", new WallBlock(Block.Properties.from({API_NAME_CAP})));
