@@ -1,7 +1,7 @@
 ﻿{
   "variants": {
-    "": [
-      { "model": "masonry:block/andesitecolumn" }
-    ]
+    "axis=y":  { "model": "masonry:block/andesitecolumn" },
+    "axis=z":   { "model": "masonry:block/andesitecolumn", "x": 90 },
+    "axis=x":   { "model": "masonry:block/andesitecolumn", "x": 90, "y": 90 }
   }
 }

@@ -16,7 +16,7 @@ public class MasonryBlocks {
     public static List<Block> BLOCKS = Lists.newArrayList();
     public static List<Item> BLOCK_ITEMS = Lists.newArrayList();
 
-    public static Block devBlock = register("devblock", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
+    //public static Block devBlock = register("devblock", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_TILED = register("andesitetiled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DARK_PRISMARINE_TILED = register("darkprismarinetiled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DIORITE_TILED = register("dioritetiled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
@@ -30,7 +30,7 @@ public class MasonryBlocks {
     public static Block STONE_CARVED_VILLAGER = register("stonecarvedvillager", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_CARVED_WITHER = register("stonecarvedwither", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_CARVED_WRITING = register("stonecarvedwriting", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block STONE_COLUMN = register("stonecolumn", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
+    public static Block STONE_COLUMN = register("stonecolumn", new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_CUT = register("stonecut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_ENGRAVED = register("stoneengraved", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_PANELS = register("stonepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
@@ -44,7 +44,7 @@ public class MasonryBlocks {
     public static Block GRANITE_CARVED_VILLAGER = register("granitecarvedvillager", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_CARVED_WITHER = register("granitecarvedwither", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_CARVED_WRITING = register("granitecarvedwriting", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block GRANITE_COLUMN = register("granitecolumn", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
+    public static Block GRANITE_COLUMN = register("granitecolumn", new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_CUT = register("granitecut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_ENGRAVED = register("graniteengraved", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_PANELS = register("granitepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
@@ -57,7 +57,7 @@ public class MasonryBlocks {
     public static Block ANDESITE_CARVED_VILLAGER = register("andesitecarvedvillager", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_CARVED_WITHER = register("andesitecarvedwither", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_CARVED_WRITING = register("andesitecarvedwriting", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block ANDESITE_COLUMN = register("andesitecolumn", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
+    public static Block ANDESITE_COLUMN = register("andesitecolumn", new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_CUT = register("andesitecut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_ENGRAVED = register("andesiteengraved", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_PANELS = register("andesitepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
