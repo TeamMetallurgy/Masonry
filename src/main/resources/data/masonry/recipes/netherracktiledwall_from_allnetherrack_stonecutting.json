@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:allnetherrack"
+  },
+  "result": "masonry:netherracktiledwall",
+  "count": 1
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "masonry:obsidiantiled"
+    "masonry:obsidiantiled",
+    "masonry:obsidiantiledwall"
   ]
 }

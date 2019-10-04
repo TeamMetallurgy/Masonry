@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "masonry:netherracktiled"
+    "masonry:netherracktiled",
+    "masonry:netherracktiledwall"
   ]
 }

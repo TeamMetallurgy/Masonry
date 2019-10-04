@@ -1,0 +1,19 @@
+﻿{
+"multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "masonry:block/graniteengravedpost" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "masonry:block/graniteengravedside", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "masonry:block/graniteengravedside", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "masonry:block/graniteengravedside", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "masonry:block/graniteengravedside", "y": 270, "uvlock": true }
+        }
+    ]
+}

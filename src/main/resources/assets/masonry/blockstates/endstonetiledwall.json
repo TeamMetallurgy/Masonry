@@ -1,0 +1,19 @@
+﻿{
+"multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "masonry:block/endstonetiledpost" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "masonry:block/endstonetiledside", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "masonry:block/endstonetiledside", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "masonry:block/endstonetiledside", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "masonry:block/endstonetiledside", "y": 270, "uvlock": true }
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "masonry:darkprismarinetiled"
+    "masonry:darkprismarinetiled",
+    "masonry:darkprismarinetiledwall"
   ]
 }

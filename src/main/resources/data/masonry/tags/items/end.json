@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "masonry:endstonetiled"
+    "masonry:endstonetiled",
+    "masonry:endstonetiledwall"
   ]
 }

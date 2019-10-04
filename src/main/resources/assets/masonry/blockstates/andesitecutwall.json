@@ -1,0 +1,19 @@
+﻿{
+"multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "masonry:block/andesitecutpost" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "masonry:block/andesitecutside", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "masonry:block/andesitecutside", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "masonry:block/andesitecutside", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "masonry:block/andesitecutside", "y": 270, "uvlock": true }
+        }
+    ]
+}

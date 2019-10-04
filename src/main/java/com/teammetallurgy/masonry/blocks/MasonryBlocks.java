@@ -68,6 +68,57 @@ public class MasonryBlocks {
 
     //public static Block devSlabBlock = register("devslabblock", new SlabBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
 
+    public static final Block DARK_PRISMARINE_TILED_WALL = register("darkprismarinetiledwall", new WallBlock(Block.Properties.from(DARK_PRISMARINE_TILED)));
+    public static final Block DIORITE_TILED_WALL = register("dioritetiledwall", new WallBlock(Block.Properties.from(DIORITE_TILED)));
+    public static final Block END_STONE_TILED_WALL = register("endstonetiledwall", new WallBlock(Block.Properties.from(END_STONE_TILED)));
+    public static final Block NETHERRACK_TILED_WALL = register("netherracktiledwall", new WallBlock(Block.Properties.from(NETHERRACK_TILED)));
+    public static final Block OBSIDIAN_TILED_WALL = register("obsidiantiledwall", new WallBlock(Block.Properties.from(OBSIDIAN_TILED)));
+    public static final Block PRISMARINE_TILED_WALL = register("prismarinetiledwall", new WallBlock(Block.Properties.from(PRISMARINE_TILED)));
+    public static final Block STONE_CARVED_CREEPER_WALL = register("stonecarvedcreeperwall", new WallBlock(Block.Properties.from(STONE_CARVED_CREEPER)));
+    public static final Block STONE_CARVED_DERP_WALL = register("stonecarvedderpwall", new WallBlock(Block.Properties.from(STONE_CARVED_DERP)));
+    public static final Block STONE_CARVED_VILLAGER_WALL = register("stonecarvedvillagerwall", new WallBlock(Block.Properties.from(STONE_CARVED_VILLAGER)));
+    public static final Block STONE_CARVED_WITHER_WALL = register("stonecarvedwitherwall", new WallBlock(Block.Properties.from(STONE_CARVED_WITHER)));
+    public static final Block STONE_CARVED_WRITING_WALL = register("stonecarvedwritingwall", new WallBlock(Block.Properties.from(STONE_CARVED_WRITING)));
+    public static final Block STONE_COLUMN_WALL = register("stonecolumnwall", new WallBlock(Block.Properties.from(STONE_COLUMN)));
+    public static final Block STONE_CUT_WALL = register("stonecutwall", new WallBlock(Block.Properties.from(STONE_CUT)));
+    public static final Block STONE_ENGRAVED_WALL = register("stoneengravedwall", new WallBlock(Block.Properties.from(STONE_ENGRAVED)));
+    public static final Block STONE_PANELS_WALL = register("stonepanelswall", new WallBlock(Block.Properties.from(STONE_PANELS)));
+    public static final Block STONE_PAVERS_WALL = register("stonepaverswall", new WallBlock(Block.Properties.from(STONE_PAVERS)));
+    public static final Block STONE_PILLAR_WALL = register("stonepillarwall", new WallBlock(Block.Properties.from(STONE_PILLAR)));
+    public static final Block STONE_POLISHED_WALL = register("stonepolishedwall", new WallBlock(Block.Properties.from(STONE_POLISHED)));
+    public static final Block STONE_ROUGH_CUT_WALL = register("stoneroughcutwall", new WallBlock(Block.Properties.from(STONE_ROUGH_CUT)));
+    public static final Block STONE_TILED_WALL = register("stonetiledwall", new WallBlock(Block.Properties.from(STONE_TILED)));
+    public static final Block GRANITE_CARVED_CREEPER_WALL = register("granitecarvedcreeperwall", new WallBlock(Block.Properties.from(GRANITE_CARVED_CREEPER)));
+    public static final Block GRANITE_CARVED_DERP_WALL = register("granitecarvedderpwall", new WallBlock(Block.Properties.from(GRANITE_CARVED_DERP)));
+    public static final Block GRANITE_CARVED_VILLAGER_WALL = register("granitecarvedvillagerwall", new WallBlock(Block.Properties.from(GRANITE_CARVED_VILLAGER)));
+    public static final Block GRANITE_CARVED_WITHER_WALL = register("granitecarvedwitherwall", new WallBlock(Block.Properties.from(GRANITE_CARVED_WITHER)));
+    public static final Block GRANITE_CARVED_WRITING_WALL = register("granitecarvedwritingwall", new WallBlock(Block.Properties.from(GRANITE_CARVED_WRITING)));
+    public static final Block GRANITE_COLUMN_WALL = register("granitecolumnwall", new WallBlock(Block.Properties.from(GRANITE_COLUMN)));
+    public static final Block GRANITE_CUT_WALL = register("granitecutwall", new WallBlock(Block.Properties.from(GRANITE_CUT)));
+    public static final Block GRANITE_ENGRAVED_WALL = register("graniteengravedwall", new WallBlock(Block.Properties.from(GRANITE_ENGRAVED)));
+    public static final Block GRANITE_PANELS_WALL = register("granitepanelswall", new WallBlock(Block.Properties.from(GRANITE_PANELS)));
+    public static final Block GRANITE_PAVERS_WALL = register("granitepaverswall", new WallBlock(Block.Properties.from(GRANITE_PAVERS)));
+    public static final Block GRANITE_PILLAR_WALL = register("granitepillarwall", new WallBlock(Block.Properties.from(GRANITE_PILLAR)));
+    public static final Block GRANITE_POLISHED_WALL = register("granitepolishedwall", new WallBlock(Block.Properties.from(GRANITE_POLISHED)));
+    public static final Block GRANITE_ROUGH_CUT_WALL = register("graniteroughcutwall", new WallBlock(Block.Properties.from(GRANITE_ROUGH_CUT)));
+    public static final Block GRANITE_TILED_WALL = register("granitetiledwall", new WallBlock(Block.Properties.from(GRANITE_TILED)));
+    public static final Block ANDESITE_CARVED_CREEPER_WALL = register("andesitecarvedcreeperwall", new WallBlock(Block.Properties.from(ANDESITE_CARVED_CREEPER)));
+    public static final Block ANDESITE_CARVED_DERP_WALL = register("andesitecarvedderpwall", new WallBlock(Block.Properties.from(ANDESITE_CARVED_DERP)));
+    public static final Block ANDESITE_CARVED_VILLAGER_WALL = register("andesitecarvedvillagerwall", new WallBlock(Block.Properties.from(ANDESITE_CARVED_VILLAGER)));
+    public static final Block ANDESITE_CARVED_WITHER_WALL = register("andesitecarvedwitherwall", new WallBlock(Block.Properties.from(ANDESITE_CARVED_WITHER)));
+    public static final Block ANDESITE_CARVED_WRITING_WALL = register("andesitecarvedwritingwall", new WallBlock(Block.Properties.from(ANDESITE_CARVED_WRITING)));
+    public static final Block ANDESITE_COLUMN_WALL = register("andesitecolumnwall", new WallBlock(Block.Properties.from(ANDESITE_COLUMN)));
+    public static final Block ANDESITE_CUT_WALL = register("andesitecutwall", new WallBlock(Block.Properties.from(ANDESITE_CUT)));
+    public static final Block ANDESITE_ENGRAVED_WALL = register("andesiteengravedwall", new WallBlock(Block.Properties.from(ANDESITE_ENGRAVED)));
+    public static final Block ANDESITE_PANELS_WALL = register("andesitepanelswall", new WallBlock(Block.Properties.from(ANDESITE_PANELS)));
+    public static final Block ANDESITE_PAVERS_WALL = register("andesitepaverswall", new WallBlock(Block.Properties.from(ANDESITE_PAVERS)));
+    public static final Block ANDESITE_PILLAR_WALL = register("andesitepillarwall", new WallBlock(Block.Properties.from(ANDESITE_PILLAR)));
+    public static final Block ANDESITE_POLISHED_WALL = register("andesitepolishedwall", new WallBlock(Block.Properties.from(ANDESITE_POLISHED)));
+    public static final Block ANDESITE_ROUGH_CUT_WALL = register("andesiteroughcutwall", new WallBlock(Block.Properties.from(ANDESITE_ROUGH_CUT)));
+    public static final Block ANDESITE_TILED_WALL = register("andesitetiledwall", new WallBlock(Block.Properties.from(ANDESITE_TILED)));
+
+
+
     private static Block register(String registryName, Block thisBlock){
         thisBlock.setRegistryName(registryName);
         BLOCKS.add(thisBlock);

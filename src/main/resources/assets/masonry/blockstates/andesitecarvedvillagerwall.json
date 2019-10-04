@@ -1,0 +1,19 @@
+﻿{
+"multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "masonry:block/andesitecarvedvillagerpost" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "masonry:block/andesitecarvedvillagerside", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "masonry:block/andesitecarvedvillagerside", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "masonry:block/andesitecarvedvillagerside", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "masonry:block/andesitecarvedvillagerside", "y": 270, "uvlock": true }
+        }
+    ]
+}

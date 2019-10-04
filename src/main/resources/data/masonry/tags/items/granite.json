@@ -14,6 +14,20 @@
     "masonry:granitepillar",
     "masonry:granitepolished",
     "masonry:graniteroughcut",
-    "masonry:granitetiled"
+    "masonry:granitetiled",
+    "masonry:granitecarvedcreeperwall",
+    "masonry:granitecarvedderpwall",
+    "masonry:granitecarvedvillagerwall",
+    "masonry:granitecarvedwitherwall",
+    "masonry:granitecarvedwritingwall",
+    "masonry:granitecolumnwall",
+    "masonry:granitecutwall",
+    "masonry:graniteengravedwall",
+    "masonry:granitepanelswall",
+    "masonry:granitepaverswall",
+    "masonry:granitepillarwall",
+    "masonry:granitepolishedwall",
+    "masonry:graniteroughcutwall",
+    "masonry:granitetiledwall"
   ]
 }

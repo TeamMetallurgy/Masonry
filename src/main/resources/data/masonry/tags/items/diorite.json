@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "masonry:dioritetiled"
+    "masonry:dioritetiled",
+    "masonry:dioritetiledwall"
   ]
 }
