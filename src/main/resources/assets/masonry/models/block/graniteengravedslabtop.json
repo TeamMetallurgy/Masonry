@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "masonry:block/granite_engraved_side",
+        "top": "masonry:block/granite_engraved_side",
+        "side": "masonry:block/granite_engraved_side"
+    }
+}

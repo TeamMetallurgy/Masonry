@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/stone_carved_wither",
+        "top": "masonry:block/stone_carved_wither",
+        "side": "masonry:block/stone_carved_wither"
+    }
+}

@@ -117,6 +117,57 @@ public class MasonryBlocks {
     public static final Block ANDESITE_ROUGH_CUT_WALL = register("andesiteroughcutwall", new WallBlock(Block.Properties.from(ANDESITE_ROUGH_CUT)));
     public static final Block ANDESITE_TILED_WALL = register("andesitetiledwall", new WallBlock(Block.Properties.from(ANDESITE_TILED)));
 
+    public static final Block DARK_PRISMARINE_TILED_SLAB = register("darkprismarinetiledslab", new SlabBlock(Block.Properties.from(DARK_PRISMARINE_TILED)));
+    public static final Block DIORITE_TILED_SLAB = register("dioritetiledslab", new SlabBlock(Block.Properties.from(DIORITE_TILED)));
+    public static final Block END_STONE_TILED_SLAB = register("endstonetiledslab", new SlabBlock(Block.Properties.from(END_STONE_TILED)));
+    public static final Block NETHERRACK_TILED_SLAB = register("netherracktiledslab", new SlabBlock(Block.Properties.from(NETHERRACK_TILED)));
+    public static final Block OBSIDIAN_TILED_SLAB = register("obsidiantiledslab", new SlabBlock(Block.Properties.from(OBSIDIAN_TILED)));
+    public static final Block PRISMARINE_TILED_SLAB = register("prismarinetiledslab", new SlabBlock(Block.Properties.from(PRISMARINE_TILED)));
+    public static final Block STONE_CARVED_CREEPER_SLAB = register("stonecarvedcreeperslab", new SlabBlock(Block.Properties.from(STONE_CARVED_CREEPER)));
+    public static final Block STONE_CARVED_DERP_SLAB = register("stonecarvedderpslab", new SlabBlock(Block.Properties.from(STONE_CARVED_DERP)));
+    public static final Block STONE_CARVED_VILLAGER_SLAB = register("stonecarvedvillagerslab", new SlabBlock(Block.Properties.from(STONE_CARVED_VILLAGER)));
+    public static final Block STONE_CARVED_WITHER_SLAB = register("stonecarvedwitherslab", new SlabBlock(Block.Properties.from(STONE_CARVED_WITHER)));
+    public static final Block STONE_CARVED_WRITING_SLAB = register("stonecarvedwritingslab", new SlabBlock(Block.Properties.from(STONE_CARVED_WRITING)));
+    public static final Block STONE_COLUMN_SLAB = register("stonecolumnslab", new SlabBlock(Block.Properties.from(STONE_COLUMN)));
+    public static final Block STONE_CUT_SLAB = register("stonecutslab", new SlabBlock(Block.Properties.from(STONE_CUT)));
+    public static final Block STONE_ENGRAVED_SLAB = register("stoneengravedslab", new SlabBlock(Block.Properties.from(STONE_ENGRAVED)));
+    public static final Block STONE_PANELS_SLAB = register("stonepanelsslab", new SlabBlock(Block.Properties.from(STONE_PANELS)));
+    public static final Block STONE_PAVERS_SLAB = register("stonepaversslab", new SlabBlock(Block.Properties.from(STONE_PAVERS)));
+    public static final Block STONE_PILLAR_SLAB = register("stonepillarslab", new SlabBlock(Block.Properties.from(STONE_PILLAR)));
+    public static final Block STONE_POLISHED_SLAB = register("stonepolishedslab", new SlabBlock(Block.Properties.from(STONE_POLISHED)));
+    public static final Block STONE_ROUGH_CUT_SLAB = register("stoneroughcutslab", new SlabBlock(Block.Properties.from(STONE_ROUGH_CUT)));
+    public static final Block STONE_TILED_SLAB = register("stonetiledslab", new SlabBlock(Block.Properties.from(STONE_TILED)));
+    public static final Block GRANITE_CARVED_CREEPER_SLAB = register("granitecarvedcreeperslab", new SlabBlock(Block.Properties.from(GRANITE_CARVED_CREEPER)));
+    public static final Block GRANITE_CARVED_DERP_SLAB = register("granitecarvedderpslab", new SlabBlock(Block.Properties.from(GRANITE_CARVED_DERP)));
+    public static final Block GRANITE_CARVED_VILLAGER_SLAB = register("granitecarvedvillagerslab", new SlabBlock(Block.Properties.from(GRANITE_CARVED_VILLAGER)));
+    public static final Block GRANITE_CARVED_WITHER_SLAB = register("granitecarvedwitherslab", new SlabBlock(Block.Properties.from(GRANITE_CARVED_WITHER)));
+    public static final Block GRANITE_CARVED_WRITING_SLAB = register("granitecarvedwritingslab", new SlabBlock(Block.Properties.from(GRANITE_CARVED_WRITING)));
+    public static final Block GRANITE_COLUMN_SLAB = register("granitecolumnslab", new SlabBlock(Block.Properties.from(GRANITE_COLUMN)));
+    public static final Block GRANITE_CUT_SLAB = register("granitecutslab", new SlabBlock(Block.Properties.from(GRANITE_CUT)));
+    public static final Block GRANITE_ENGRAVED_SLAB = register("graniteengravedslab", new SlabBlock(Block.Properties.from(GRANITE_ENGRAVED)));
+    public static final Block GRANITE_PANELS_SLAB = register("granitepanelsslab", new SlabBlock(Block.Properties.from(GRANITE_PANELS)));
+    public static final Block GRANITE_PAVERS_SLAB = register("granitepaversslab", new SlabBlock(Block.Properties.from(GRANITE_PAVERS)));
+    public static final Block GRANITE_PILLAR_SLAB = register("granitepillarslab", new SlabBlock(Block.Properties.from(GRANITE_PILLAR)));
+    public static final Block GRANITE_POLISHED_SLAB = register("granitepolishedslab", new SlabBlock(Block.Properties.from(GRANITE_POLISHED)));
+    public static final Block GRANITE_ROUGH_CUT_SLAB = register("graniteroughcutslab", new SlabBlock(Block.Properties.from(GRANITE_ROUGH_CUT)));
+    public static final Block GRANITE_TILED_SLAB = register("granitetiledslab", new SlabBlock(Block.Properties.from(GRANITE_TILED)));
+    public static final Block ANDESITE_CARVED_CREEPER_SLAB = register("andesitecarvedcreeperslab", new SlabBlock(Block.Properties.from(ANDESITE_CARVED_CREEPER)));
+    public static final Block ANDESITE_CARVED_DERP_SLAB = register("andesitecarvedderpslab", new SlabBlock(Block.Properties.from(ANDESITE_CARVED_DERP)));
+    public static final Block ANDESITE_CARVED_VILLAGER_SLAB = register("andesitecarvedvillagerslab", new SlabBlock(Block.Properties.from(ANDESITE_CARVED_VILLAGER)));
+    public static final Block ANDESITE_CARVED_WITHER_SLAB = register("andesitecarvedwitherslab", new SlabBlock(Block.Properties.from(ANDESITE_CARVED_WITHER)));
+    public static final Block ANDESITE_CARVED_WRITING_SLAB = register("andesitecarvedwritingslab", new SlabBlock(Block.Properties.from(ANDESITE_CARVED_WRITING)));
+    public static final Block ANDESITE_COLUMN_SLAB = register("andesitecolumnslab", new SlabBlock(Block.Properties.from(ANDESITE_COLUMN)));
+    public static final Block ANDESITE_CUT_SLAB = register("andesitecutslab", new SlabBlock(Block.Properties.from(ANDESITE_CUT)));
+    public static final Block ANDESITE_ENGRAVED_SLAB = register("andesiteengravedslab", new SlabBlock(Block.Properties.from(ANDESITE_ENGRAVED)));
+    public static final Block ANDESITE_PANELS_SLAB = register("andesitepanelsslab", new SlabBlock(Block.Properties.from(ANDESITE_PANELS)));
+    public static final Block ANDESITE_PAVERS_SLAB = register("andesitepaversslab", new SlabBlock(Block.Properties.from(ANDESITE_PAVERS)));
+    public static final Block ANDESITE_PILLAR_SLAB = register("andesitepillarslab", new SlabBlock(Block.Properties.from(ANDESITE_PILLAR)));
+    public static final Block ANDESITE_POLISHED_SLAB = register("andesitepolishedslab", new SlabBlock(Block.Properties.from(ANDESITE_POLISHED)));
+    public static final Block ANDESITE_ROUGH_CUT_SLAB = register("andesiteroughcutslab", new SlabBlock(Block.Properties.from(ANDESITE_ROUGH_CUT)));
+    public static final Block ANDESITE_TILED_SLAB = register("andesitetiledslab", new SlabBlock(Block.Properties.from(ANDESITE_TILED)));
+
+
+
 
 
     private static Block register(String registryName, Block thisBlock){

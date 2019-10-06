@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/obsidiantiledslab" },
+        "type=top": { "model": "masonry:block/obsidiantiledslabtop" },
+        "type=double": { "model": "masonry:block/obsidiantiled" }
+    }
+}

@@ -1,10 +1,12 @@
-﻿$SlabData = Get-Content -Path SlabAPINames.txt
-$BlockstateBlueprint = Get-Content -Path BlockstateBlueprint.txt
+﻿$SlabData = Get-Content -Path BlockAPINames.txt
+$BlockstateBlueprint = Get-Content -Path SlabBlockstateBlueprint.txt
 
 foreach($SlabInfo in $SlabData){
-    $ApiName,$DisplayName,$BottomTexture,$TopTexture,$SideTexture,$DoubleTexture,$Material,$MaterialColor,$Hardness,$Resistance = $SlabInfo -split '\t'
+    $ApiName,$_ = $SlabInfo -split '\t'
     
-    $Blockstate = $BlockstateBlueprint.Replace('{BOTTOM}', $ApiName.Replace('_', ''))
     $ApiNameNoUnd = $ApiName.Replace('_', '')
-    $Blockstate | Out-File "Output\blockstates\$ApiNameNoUnd.json" -Encoding utf8
+    $Blockstate = $BlockstateBlueprint.Replace('{API_NAME}', $ApiNameNoUnd)
+    $Filepath = 'Output\blockstates\{0}slab.json' -f $ApiNameNoUnd
+
+    $Blockstate | Out-File $Filepath -Encoding utf8
 }

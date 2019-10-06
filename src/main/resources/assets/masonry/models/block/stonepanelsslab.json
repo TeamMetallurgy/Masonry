@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/stone_panels",
+        "top": "masonry:block/stone_panels",
+        "side": "masonry:block/stone_panels"
+    }
+}

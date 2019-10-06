@@ -1,0 +1,1 @@
+public static final Block {API_NAME_CAP}_SLAB = register("{API_NAME}slab", new SlabBlock(Block.Properties.from({API_NAME_CAP})));

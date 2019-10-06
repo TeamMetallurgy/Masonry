@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "masonry:block/granite_carved_derp",
+        "top": "masonry:block/granite_carved_derp",
+        "side": "masonry:block/granite_carved_derp"
+    }
+}

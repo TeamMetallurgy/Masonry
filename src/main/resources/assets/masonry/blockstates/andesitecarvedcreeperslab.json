@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/andesitecarvedcreeperslab" },
+        "type=top": { "model": "masonry:block/andesitecarvedcreeperslabtop" },
+        "type=double": { "model": "masonry:block/andesitecarvedcreeper" }
+    }
+}

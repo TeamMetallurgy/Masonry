@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/granite_rough_cut_side",
+        "top": "masonry:block/granite_rough_cut_side",
+        "side": "masonry:block/granite_rough_cut_side"
+    }
+}

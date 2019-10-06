@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/stone_carved_villager",
+        "top": "masonry:block/stone_carved_villager",
+        "side": "masonry:block/stone_carved_villager"
+    }
+}

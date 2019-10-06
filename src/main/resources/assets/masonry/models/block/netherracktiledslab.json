@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/netherrack_tiled",
+        "top": "masonry:block/netherrack_tiled",
+        "side": "masonry:block/netherrack_tiled"
+    }
+}

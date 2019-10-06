@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/granitecarvedvillagerslab" },
+        "type=top": { "model": "masonry:block/granitecarvedvillagerslabtop" },
+        "type=double": { "model": "masonry:block/granitecarvedvillager" }
+    }
+}

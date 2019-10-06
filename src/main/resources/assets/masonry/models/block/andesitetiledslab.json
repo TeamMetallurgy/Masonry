@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/andesite_tiled",
+        "top": "masonry:block/andesite_tiled",
+        "side": "masonry:block/andesite_tiled"
+    }
+}

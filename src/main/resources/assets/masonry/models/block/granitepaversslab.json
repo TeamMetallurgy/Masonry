@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/granite_pavers",
+        "top": "masonry:block/granite_pavers",
+        "side": "masonry:block/granite_pavers"
+    }
+}

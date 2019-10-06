@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/{API_NAME}",
+        "top": "masonry:block/{API_NAME}",
+        "side": "masonry:block/{API_NAME}"
+    }
+}
