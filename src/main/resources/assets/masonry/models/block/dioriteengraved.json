@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/diorite_engraved_side",
+        "down": "masonry:block/diorite_engraved_top",
+        "up": "masonry:block/diorite_engraved_top",
+        "north": "masonry:block/diorite_engraved_side",
+        "east": "masonry:block/diorite_engraved_side",
+        "south": "masonry:block/diorite_engraved_side",
+        "west": "masonry:block/diorite_engraved_side"
+    }
+}

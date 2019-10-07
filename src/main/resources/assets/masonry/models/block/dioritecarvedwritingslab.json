@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/diorite_carved_writing",
+        "top": "masonry:block/diorite_carved_writing",
+        "side": "masonry:block/diorite_carved_writing"
+    }
+}

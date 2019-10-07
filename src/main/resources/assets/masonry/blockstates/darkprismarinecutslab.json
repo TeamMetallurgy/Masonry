@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/darkprismarinecutslab" },
+        "type=top": { "model": "masonry:block/darkprismarinecutslabtop" },
+        "type=double": { "model": "masonry:block/darkprismarinecut" }
+    }
+}

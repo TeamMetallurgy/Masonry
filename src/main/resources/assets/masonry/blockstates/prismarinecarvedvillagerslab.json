@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/prismarinecarvedvillagerslab" },
+        "type=top": { "model": "masonry:block/prismarinecarvedvillagerslabtop" },
+        "type=double": { "model": "masonry:block/prismarinecarvedvillager" }
+    }
+}

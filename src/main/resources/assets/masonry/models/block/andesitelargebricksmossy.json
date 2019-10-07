@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/andesite_large_bricks_mossy",
+        "down": "masonry:block/andesite_large_bricks_mossy",
+        "up": "masonry:block/andesite_large_bricks_mossy",
+        "north": "masonry:block/andesite_large_bricks_mossy",
+        "east": "masonry:block/andesite_large_bricks_mossy",
+        "south": "masonry:block/andesite_large_bricks_mossy",
+        "west": "masonry:block/andesite_large_bricks_mossy"
+    }
+}

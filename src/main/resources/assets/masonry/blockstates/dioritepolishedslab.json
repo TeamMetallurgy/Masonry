@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/dioritepolishedslab" },
+        "type=top": { "model": "masonry:block/dioritepolishedslabtop" },
+        "type=double": { "model": "masonry:block/dioritepolished" }
+    }
+}

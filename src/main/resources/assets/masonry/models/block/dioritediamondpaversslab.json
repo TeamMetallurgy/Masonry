@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/diorite_diamond_pavers",
+        "top": "masonry:block/diorite_diamond_pavers",
+        "side": "masonry:block/diorite_diamond_pavers"
+    }
+}

@@ -1,0 +1,6 @@
+﻿{
+"parent": "block/wall_inventory",
+    "textures": {
+        "wall": "masonry:block/andesite_chiseled"
+    }
+}

@@ -1,0 +1,19 @@
+﻿{
+"multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "masonry:block/andesitechiseledpost" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "masonry:block/andesitechiseledside", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "masonry:block/andesitechiseledside", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "masonry:block/andesitechiseledside", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "masonry:block/andesitechiseledside", "y": 270, "uvlock": true }
+        }
+    ]
+}

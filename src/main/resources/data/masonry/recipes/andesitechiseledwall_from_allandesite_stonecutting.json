@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:allandesite"
+  },
+  "result": "masonry:andesitechiseledwall",
+  "count": 1
+}

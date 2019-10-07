@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/diorite_carved_villager",
+        "down": "masonry:block/diorite_carved_bottom",
+        "up": "masonry:block/diorite_cut_top",
+        "north": "masonry:block/diorite_carved_villager",
+        "east": "masonry:block/diorite_carved_villager",
+        "south": "masonry:block/diorite_carved_villager",
+        "west": "masonry:block/diorite_carved_villager"
+    }
+}

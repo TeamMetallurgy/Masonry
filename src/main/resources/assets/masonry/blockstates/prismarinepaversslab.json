@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/prismarinepaversslab" },
+        "type=top": { "model": "masonry:block/prismarinepaversslabtop" },
+        "type=double": { "model": "masonry:block/prismarinepavers" }
+    }
+}

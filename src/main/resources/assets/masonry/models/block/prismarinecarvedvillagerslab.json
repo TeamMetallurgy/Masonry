@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/prismarine_carved_villager",
+        "top": "masonry:block/prismarine_carved_villager",
+        "side": "masonry:block/prismarine_carved_villager"
+    }
+}

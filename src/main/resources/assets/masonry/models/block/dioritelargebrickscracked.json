@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/diorite_large_bricks_cracked",
+        "down": "masonry:block/diorite_large_bricks_cracked",
+        "up": "masonry:block/diorite_large_bricks_cracked",
+        "north": "masonry:block/diorite_large_bricks_cracked",
+        "east": "masonry:block/diorite_large_bricks_cracked",
+        "south": "masonry:block/diorite_large_bricks_cracked",
+        "west": "masonry:block/diorite_large_bricks_cracked"
+    }
+}

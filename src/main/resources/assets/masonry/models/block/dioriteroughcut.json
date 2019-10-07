@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/diorite_rough_cut_side",
+        "down": "masonry:block/diorite_rough_cut_bottom",
+        "up": "masonry:block/diorite_rough_cut_top",
+        "north": "masonry:block/diorite_rough_cut_side",
+        "east": "masonry:block/diorite_rough_cut_side",
+        "south": "masonry:block/diorite_rough_cut_side",
+        "west": "masonry:block/diorite_rough_cut_side"
+    }
+}

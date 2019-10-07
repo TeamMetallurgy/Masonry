@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/prismarinelargebricksmossyslab" },
+        "type=top": { "model": "masonry:block/prismarinelargebricksmossyslabtop" },
+        "type=double": { "model": "masonry:block/prismarinelargebricksmossy" }
+    }
+}

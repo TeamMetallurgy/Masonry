@@ -1,0 +1,19 @@
+﻿{
+"multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "masonry:block/dioritecarvedwritingpost" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "masonry:block/dioritecarvedwritingside", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "masonry:block/dioritecarvedwritingside", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "masonry:block/dioritecarvedwritingside", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "masonry:block/dioritecarvedwritingside", "y": 270, "uvlock": true }
+        }
+    ]
+}

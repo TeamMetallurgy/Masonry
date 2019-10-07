@@ -1,0 +1,19 @@
+﻿{
+"multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "masonry:block/darkprismarinediamondpaverspost" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "masonry:block/darkprismarinediamondpaversside", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "masonry:block/darkprismarinediamondpaversside", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "masonry:block/darkprismarinediamondpaversside", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "masonry:block/darkprismarinediamondpaversside", "y": 270, "uvlock": true }
+        }
+    ]
+}

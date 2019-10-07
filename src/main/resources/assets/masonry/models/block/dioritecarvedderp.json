@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/diorite_carved_derp",
+        "down": "masonry:block/diorite_carved_bottom",
+        "up": "masonry:block/diorite_cut_top",
+        "north": "masonry:block/diorite_carved_derp",
+        "east": "masonry:block/diorite_carved_derp",
+        "south": "masonry:block/diorite_carved_derp",
+        "west": "masonry:block/diorite_carved_derp"
+    }
+}

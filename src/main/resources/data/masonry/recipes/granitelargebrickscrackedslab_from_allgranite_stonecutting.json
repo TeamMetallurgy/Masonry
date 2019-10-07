@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:allgranite"
+  },
+  "result": "masonry:granitelargebrickscrackedslab",
+  "count": 2
+}

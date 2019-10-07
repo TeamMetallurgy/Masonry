@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/prismarine_large_bricks_cracked",
+        "down": "masonry:block/prismarine_large_bricks_cracked",
+        "up": "masonry:block/prismarine_large_bricks_cracked",
+        "north": "masonry:block/prismarine_large_bricks_cracked",
+        "east": "masonry:block/prismarine_large_bricks_cracked",
+        "south": "masonry:block/prismarine_large_bricks_cracked",
+        "west": "masonry:block/prismarine_large_bricks_cracked"
+    }
+}

@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/diorite_large_bricks",
+        "down": "masonry:block/diorite_large_bricks",
+        "up": "masonry:block/diorite_large_bricks",
+        "north": "masonry:block/diorite_large_bricks",
+        "east": "masonry:block/diorite_large_bricks",
+        "south": "masonry:block/diorite_large_bricks",
+        "west": "masonry:block/diorite_large_bricks"
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "masonry:block/granite_chiseled",
+        "top": "masonry:block/granite_chiseled",
+        "side": "masonry:block/granite_chiseled"
+    }
+}

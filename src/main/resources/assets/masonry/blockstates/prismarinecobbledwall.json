@@ -1,0 +1,19 @@
+﻿{
+"multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "masonry:block/prismarinecobbledpost" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "masonry:block/prismarinecobbledside", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "masonry:block/prismarinecobbledside", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "masonry:block/prismarinecobbledside", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "masonry:block/prismarinecobbledside", "y": 270, "uvlock": true }
+        }
+    ]
+}

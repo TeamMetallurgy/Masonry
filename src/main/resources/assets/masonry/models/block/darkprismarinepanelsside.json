@@ -1,0 +1,6 @@
+﻿{
+"parent": "block/template_wall_side",
+    "textures": {
+        "wall": "masonry:block/dark_prismarine_panels"
+    }
+}

@@ -28,6 +28,22 @@
     "masonry:stonepillarwall",
     "masonry:stonepolishedwall",
     "masonry:stoneroughcutwall",
-    "masonry:stonetiledwall"
+    "masonry:stonetiledwall",
+    "masonry:stonechiseled",
+    "masonry:stonecobbled",
+    "masonry:stonecobbledmossy",
+    "masonry:stonediamondpavers",
+    "masonry:stonelargebricks",
+    "masonry:stonelargebrickscracked",
+    "masonry:stonelargebricksmossy",
+    "masonry:stonesmallbrick",
+    "masonry:stonechiseledwall",
+    "masonry:stonecobbledwall",
+    "masonry:stonecobbledmossywall",
+    "masonry:stonediamondpaverswall",
+    "masonry:stonelargebrickswall",
+    "masonry:stonelargebrickscrackedwall",
+    "masonry:stonelargebricksmossywall",
+    "masonry:stonesmallbrickwall"
   ]
 }

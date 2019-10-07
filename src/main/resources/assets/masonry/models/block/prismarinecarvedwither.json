@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/prismarine_carved_wither",
+        "down": "masonry:block/prismarine_carved_bottom",
+        "up": "masonry:block/prismarine_cut_top",
+        "north": "masonry:block/prismarine_carved_wither",
+        "east": "masonry:block/prismarine_carved_wither",
+        "south": "masonry:block/prismarine_carved_wither",
+        "west": "masonry:block/prismarine_carved_wither"
+    }
+}

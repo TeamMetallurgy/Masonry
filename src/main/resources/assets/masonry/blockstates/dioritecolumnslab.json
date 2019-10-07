@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/dioritecolumnslab" },
+        "type=top": { "model": "masonry:block/dioritecolumnslabtop" },
+        "type=double": { "model": "masonry:block/dioritecolumn" }
+    }
+}

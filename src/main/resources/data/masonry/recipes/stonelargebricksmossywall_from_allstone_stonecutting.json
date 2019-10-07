@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:allstone"
+  },
+  "result": "masonry:stonelargebricksmossywall",
+  "count": 1
+}

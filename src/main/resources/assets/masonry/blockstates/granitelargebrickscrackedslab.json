@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/granitelargebrickscrackedslab" },
+        "type=top": { "model": "masonry:block/granitelargebrickscrackedslabtop" },
+        "type=double": { "model": "masonry:block/granitelargebrickscracked" }
+    }
+}

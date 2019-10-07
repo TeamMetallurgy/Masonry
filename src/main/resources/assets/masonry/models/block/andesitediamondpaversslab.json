@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/andesite_diamond_pavers",
+        "top": "masonry:block/andesite_diamond_pavers",
+        "side": "masonry:block/andesite_diamond_pavers"
+    }
+}

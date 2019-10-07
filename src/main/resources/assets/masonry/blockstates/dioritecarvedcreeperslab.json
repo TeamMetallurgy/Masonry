@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/dioritecarvedcreeperslab" },
+        "type=top": { "model": "masonry:block/dioritecarvedcreeperslabtop" },
+        "type=double": { "model": "masonry:block/dioritecarvedcreeper" }
+    }
+}

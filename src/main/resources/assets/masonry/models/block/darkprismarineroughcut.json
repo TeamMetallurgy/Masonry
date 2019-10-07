@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/dark_prismarine_rough_cut_side",
+        "down": "masonry:block/dark_prismarine_rough_cut_bottom",
+        "up": "masonry:block/dark_prismarine_rough_cut_top",
+        "north": "masonry:block/dark_prismarine_rough_cut_side",
+        "east": "masonry:block/dark_prismarine_rough_cut_side",
+        "south": "masonry:block/dark_prismarine_rough_cut_side",
+        "west": "masonry:block/dark_prismarine_rough_cut_side"
+    }
+}

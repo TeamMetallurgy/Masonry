@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "masonry:block/prismarine_carved_writing",
+        "top": "masonry:block/prismarine_carved_writing",
+        "side": "masonry:block/prismarine_carved_writing"
+    }
+}

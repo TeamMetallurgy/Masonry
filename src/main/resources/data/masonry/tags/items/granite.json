@@ -28,6 +28,22 @@
     "masonry:granitepillarwall",
     "masonry:granitepolishedwall",
     "masonry:graniteroughcutwall",
-    "masonry:granitetiledwall"
+    "masonry:granitetiledwall",
+    "masonry:granitechiseled",
+    "masonry:granitecobbled",
+    "masonry:granitecobbledmossy",
+    "masonry:granitediamondpavers",
+    "masonry:granitelargebricks",
+    "masonry:granitelargebrickscracked",
+    "masonry:granitelargebricksmossy",
+    "masonry:granitesmallbrick",
+    "masonry:granitechiseledwall",
+    "masonry:granitecobbledwall",
+    "masonry:granitecobbledmossywall",
+    "masonry:granitediamondpaverswall",
+    "masonry:granitelargebrickswall",
+    "masonry:granitelargebrickscrackedwall",
+    "masonry:granitelargebricksmossywall",
+    "masonry:granitesmallbrickwall"
   ]
 }

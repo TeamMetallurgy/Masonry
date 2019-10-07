@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:allprismarine"
+  },
+  "result": "masonry:prismarinepolishedslab",
+  "count": 2
+}

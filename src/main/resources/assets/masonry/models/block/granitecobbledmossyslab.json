@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/granite_cobbled_mossy",
+        "top": "masonry:block/granite_cobbled_mossy",
+        "side": "masonry:block/granite_cobbled_mossy"
+    }
+}

@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/dioritecarvedwitherslab" },
+        "type=top": { "model": "masonry:block/dioritecarvedwitherslabtop" },
+        "type=double": { "model": "masonry:block/dioritecarvedwither" }
+    }
+}

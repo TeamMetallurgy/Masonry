@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/andesitelargebricksmossyslab" },
+        "type=top": { "model": "masonry:block/andesitelargebricksmossyslabtop" },
+        "type=double": { "model": "masonry:block/andesitelargebricksmossy" }
+    }
+}

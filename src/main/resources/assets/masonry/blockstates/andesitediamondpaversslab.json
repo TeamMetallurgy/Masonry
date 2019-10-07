@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/andesitediamondpaversslab" },
+        "type=top": { "model": "masonry:block/andesitediamondpaversslabtop" },
+        "type=double": { "model": "masonry:block/andesitediamondpavers" }
+    }
+}

@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/dark_prismarine_carved_villager",
+        "down": "masonry:block/dark_prismarine_carved_bottom",
+        "up": "masonry:block/dark_prismarine_cut_top",
+        "north": "masonry:block/dark_prismarine_carved_villager",
+        "east": "masonry:block/dark_prismarine_carved_villager",
+        "south": "masonry:block/dark_prismarine_carved_villager",
+        "west": "masonry:block/dark_prismarine_carved_villager"
+    }
+}

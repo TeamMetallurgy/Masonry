@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:alldark"
+  },
+  "result": "masonry:darkprismarineroughcut",
+  "count": 1
+}

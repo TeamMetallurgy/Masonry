@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/diorite_cobbled",
+        "top": "masonry:block/diorite_cobbled",
+        "side": "masonry:block/diorite_cobbled"
+    }
+}

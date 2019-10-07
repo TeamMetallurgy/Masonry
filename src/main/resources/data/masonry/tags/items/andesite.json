@@ -28,6 +28,22 @@
     "masonry:andesitepillarwall",
     "masonry:andesitepolishedwall",
     "masonry:andesiteroughcutwall",
-    "masonry:andesitetiledwall"
+    "masonry:andesitetiledwall",
+    "masonry:andesitechiseled",
+    "masonry:andesitecobbled",
+    "masonry:andesitecobbledmossy",
+    "masonry:andesitediamondpavers",
+    "masonry:andesitelargebricks",
+    "masonry:andesitelargebrickscracked",
+    "masonry:andesitelargebricksmossy",
+    "masonry:andesitesmallbrick",
+    "masonry:andesitechiseledwall",
+    "masonry:andesitecobbledwall",
+    "masonry:andesitecobbledmossywall",
+    "masonry:andesitediamondpaverswall",
+    "masonry:andesitelargebrickswall",
+    "masonry:andesitelargebrickscrackedwall",
+    "masonry:andesitelargebricksmossywall",
+    "masonry:andesitesmallbrickwall"
   ]
 }

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:alldiorite"
+  },
+  "result": "masonry:dioritecobbledmossyslab",
+  "count": 2
+}

@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/prismarine_cobbled_mossy",
+        "down": "masonry:block/prismarine_cobbled_mossy",
+        "up": "masonry:block/prismarine_cobbled_mossy",
+        "north": "masonry:block/prismarine_cobbled_mossy",
+        "east": "masonry:block/prismarine_cobbled_mossy",
+        "south": "masonry:block/prismarine_cobbled_mossy",
+        "west": "masonry:block/prismarine_cobbled_mossy"
+    }
+}

@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/prismarinelargebrickscrackedslab" },
+        "type=top": { "model": "masonry:block/prismarinelargebrickscrackedslabtop" },
+        "type=double": { "model": "masonry:block/prismarinelargebrickscracked" }
+    }
+}

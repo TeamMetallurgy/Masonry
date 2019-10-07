@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/prismarine_cobbled",
+        "top": "masonry:block/prismarine_cobbled",
+        "side": "masonry:block/prismarine_cobbled"
+    }
+}

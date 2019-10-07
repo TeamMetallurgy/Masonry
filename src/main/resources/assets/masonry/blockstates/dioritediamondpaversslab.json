@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/dioritediamondpaversslab" },
+        "type=top": { "model": "masonry:block/dioritediamondpaversslabtop" },
+        "type=double": { "model": "masonry:block/dioritediamondpavers" }
+    }
+}

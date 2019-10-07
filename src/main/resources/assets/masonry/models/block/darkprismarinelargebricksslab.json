@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/dark_prismarine_large_bricks",
+        "top": "masonry:block/dark_prismarine_large_bricks",
+        "side": "masonry:block/dark_prismarine_large_bricks"
+    }
+}

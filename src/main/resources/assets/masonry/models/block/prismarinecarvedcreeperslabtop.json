@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "masonry:block/prismarine_carved_creeper",
+        "top": "masonry:block/prismarine_carved_creeper",
+        "side": "masonry:block/prismarine_carved_creeper"
+    }
+}

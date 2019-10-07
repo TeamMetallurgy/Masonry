@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/stone_large_bricks",
+        "down": "masonry:block/stone_large_bricks",
+        "up": "masonry:block/stone_large_bricks",
+        "north": "masonry:block/stone_large_bricks",
+        "east": "masonry:block/stone_large_bricks",
+        "south": "masonry:block/stone_large_bricks",
+        "west": "masonry:block/stone_large_bricks"
+    }
+}

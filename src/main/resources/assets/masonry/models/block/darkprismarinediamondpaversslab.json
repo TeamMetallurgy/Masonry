@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/dark_prismarine_diamond_pavers",
+        "top": "masonry:block/dark_prismarine_diamond_pavers",
+        "side": "masonry:block/dark_prismarine_diamond_pavers"
+    }
+}

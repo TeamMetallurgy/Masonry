@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/diorite_cobbled_mossy",
+        "down": "masonry:block/diorite_cobbled_mossy",
+        "up": "masonry:block/diorite_cobbled_mossy",
+        "north": "masonry:block/diorite_cobbled_mossy",
+        "east": "masonry:block/diorite_cobbled_mossy",
+        "south": "masonry:block/diorite_cobbled_mossy",
+        "west": "masonry:block/diorite_cobbled_mossy"
+    }
+}

@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/prismarine_pillar_side",
+        "down": "masonry:block/prismarine_pillar_top",
+        "up": "masonry:block/prismarine_pillar_top",
+        "north": "masonry:block/prismarine_pillar_side",
+        "east": "masonry:block/prismarine_pillar_side",
+        "south": "masonry:block/prismarine_pillar_side",
+        "west": "masonry:block/prismarine_pillar_side"
+    }
+}
