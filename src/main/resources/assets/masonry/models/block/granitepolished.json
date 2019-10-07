@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/granite_polished",
+        "down": "masonry:block/granite_polished",
+        "up": "masonry:block/granite_polished",
+        "north": "masonry:block/granite_polished",
+        "east": "masonry:block/granite_polished",
+        "south": "masonry:block/granite_polished",
+        "west": "masonry:block/granite_polished"
+    }
+}

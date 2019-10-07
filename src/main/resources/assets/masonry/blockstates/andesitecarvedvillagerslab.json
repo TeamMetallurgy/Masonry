@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/andesitecarvedvillagerslab" },
+        "type=top": { "model": "masonry:block/andesitecarvedvillagerslabtop" },
+        "type=double": { "model": "masonry:block/andesitecarvedvillager" }
+    }
+}

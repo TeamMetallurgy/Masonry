@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "masonry:block/granite_carved_creeper",
+        "top": "masonry:block/granite_carved_creeper",
+        "side": "masonry:block/granite_carved_creeper"
+    }
+}

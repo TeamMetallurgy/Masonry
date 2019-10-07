@@ -1,0 +1,8 @@
+﻿{
+  "variants": {
+    "facing=south": { "model": "masonry:block/andesitepavers" },
+    "facing=west": { "model": "masonry:block/andesitepavers", "y": 90 },
+    "facing=north": { "model": "masonry:block/andesitepavers", "y": 180 },
+    "facing=east": { "model": "masonry:block/andesitepavers", "y": 270 }
+  }
+}

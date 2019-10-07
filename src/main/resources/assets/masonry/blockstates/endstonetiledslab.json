@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/endstonetiledslab" },
+        "type=top": { "model": "masonry:block/endstonetiledslabtop" },
+        "type=double": { "model": "masonry:block/endstonetiled" }
+    }
+}

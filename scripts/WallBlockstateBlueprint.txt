@@ -1,0 +1,19 @@
+{
+"multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "masonry:block/{API_NAME}post" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "masonry:block/{API_NAME}side", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "masonry:block/{API_NAME}side", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "masonry:block/{API_NAME}side", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "masonry:block/{API_NAME}side", "y": 270, "uvlock": true }
+        }
+    ]
+}

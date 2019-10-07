@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/andesiteengravedslab" },
+        "type=top": { "model": "masonry:block/andesiteengravedslabtop" },
+        "type=double": { "model": "masonry:block/andesiteengraved" }
+    }
+}

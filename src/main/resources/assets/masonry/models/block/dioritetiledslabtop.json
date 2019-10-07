@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "masonry:block/diorite_tiled",
+        "top": "masonry:block/diorite_tiled",
+        "side": "masonry:block/diorite_tiled"
+    }
+}

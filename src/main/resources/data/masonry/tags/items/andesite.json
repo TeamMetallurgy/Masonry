@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "masonry:andesitecarvedcreeper",
+    "masonry:andesitecarvedderp",
+    "masonry:andesitecarvedvillager",
+    "masonry:andesitecarvedwither",
+    "masonry:andesitecarvedwriting",
+    "masonry:andesitecolumn",
+    "masonry:andesitecut",
+    "masonry:andesiteengraved",
+    "masonry:andesitepanels",
+    "masonry:andesitepavers",
+    "masonry:andesitepillar",
+    "masonry:andesitepolished",
+    "masonry:andesiteroughcut",
+    "masonry:andesitetiled",
+    "masonry:andesitecarvedcreeperwall",
+    "masonry:andesitecarvedderpwall",
+    "masonry:andesitecarvedvillagerwall",
+    "masonry:andesitecarvedwitherwall",
+    "masonry:andesitecarvedwritingwall",
+    "masonry:andesitecolumnwall",
+    "masonry:andesitecutwall",
+    "masonry:andesiteengravedwall",
+    "masonry:andesitepanelswall",
+    "masonry:andesitepaverswall",
+    "masonry:andesitepillarwall",
+    "masonry:andesitepolishedwall",
+    "masonry:andesiteroughcutwall",
+    "masonry:andesitetiledwall"
+  ]
+}

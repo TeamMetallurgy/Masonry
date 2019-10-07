@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/andesite_carved_writing",
+        "top": "masonry:block/andesite_carved_writing",
+        "side": "masonry:block/andesite_carved_writing"
+    }
+}

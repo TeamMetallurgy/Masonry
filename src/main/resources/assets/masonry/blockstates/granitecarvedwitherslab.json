@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/granitecarvedwitherslab" },
+        "type=top": { "model": "masonry:block/granitecarvedwitherslabtop" },
+        "type=double": { "model": "masonry:block/granitecarvedwither" }
+    }
+}

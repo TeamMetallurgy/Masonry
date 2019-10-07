@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "masonry:stonecarvedcreeper",
+    "masonry:stonecarvedderp",
+    "masonry:stonecarvedvillager",
+    "masonry:stonecarvedwither",
+    "masonry:stonecarvedwriting",
+    "masonry:stonecolumn",
+    "masonry:stonecut",
+    "masonry:stoneengraved",
+    "masonry:stonepanels",
+    "masonry:stonepavers",
+    "masonry:stonepillar",
+    "masonry:stonepolished",
+    "masonry:stoneroughcut",
+    "masonry:stonetiled",
+    "masonry:stonecarvedcreeperwall",
+    "masonry:stonecarvedderpwall",
+    "masonry:stonecarvedvillagerwall",
+    "masonry:stonecarvedwitherwall",
+    "masonry:stonecarvedwritingwall",
+    "masonry:stonecolumnwall",
+    "masonry:stonecutwall",
+    "masonry:stoneengravedwall",
+    "masonry:stonepanelswall",
+    "masonry:stonepaverswall",
+    "masonry:stonepillarwall",
+    "masonry:stonepolishedwall",
+    "masonry:stoneroughcutwall",
+    "masonry:stonetiledwall"
+  ]
+}

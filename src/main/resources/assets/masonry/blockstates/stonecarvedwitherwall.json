@@ -1,0 +1,19 @@
+﻿{
+"multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "masonry:block/stonecarvedwitherpost" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "masonry:block/stonecarvedwitherside", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "masonry:block/stonecarvedwitherside", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "masonry:block/stonecarvedwitherside", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "masonry:block/stonecarvedwitherside", "y": 270, "uvlock": true }
+        }
+    ]
+}

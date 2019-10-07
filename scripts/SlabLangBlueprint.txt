@@ -1,0 +1,1 @@
+"block.masonry.{API_NAME}slab": "{DISPLAY_NAME} Slab",

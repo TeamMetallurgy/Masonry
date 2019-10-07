@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/granite_carved_writing",
+        "down": "masonry:block/granite_carved_bottom",
+        "up": "masonry:block/granite_cut_top",
+        "north": "masonry:block/granite_carved_writing",
+        "east": "masonry:block/granite_carved_writing",
+        "south": "masonry:block/granite_carved_writing",
+        "west": "masonry:block/granite_carved_writing"
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "masonry:block/obsidian_tiled",
+        "top": "masonry:block/obsidian_tiled",
+        "side": "masonry:block/obsidian_tiled"
+    }
+}

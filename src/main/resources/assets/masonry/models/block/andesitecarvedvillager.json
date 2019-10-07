@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/andesite_carved_villager",
+        "down": "masonry:block/andesite_carved_bottom",
+        "up": "masonry:block/andesite_cut_top",
+        "north": "masonry:block/andesite_carved_villager",
+        "east": "masonry:block/andesite_carved_villager",
+        "south": "masonry:block/andesite_carved_villager",
+        "west": "masonry:block/andesite_carved_villager"
+    }
+}

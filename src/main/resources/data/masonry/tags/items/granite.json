@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "masonry:granitecarvedcreeper",
+    "masonry:granitecarvedderp",
+    "masonry:granitecarvedvillager",
+    "masonry:granitecarvedwither",
+    "masonry:granitecarvedwriting",
+    "masonry:granitecolumn",
+    "masonry:granitecut",
+    "masonry:graniteengraved",
+    "masonry:granitepanels",
+    "masonry:granitepavers",
+    "masonry:granitepillar",
+    "masonry:granitepolished",
+    "masonry:graniteroughcut",
+    "masonry:granitetiled",
+    "masonry:granitecarvedcreeperwall",
+    "masonry:granitecarvedderpwall",
+    "masonry:granitecarvedvillagerwall",
+    "masonry:granitecarvedwitherwall",
+    "masonry:granitecarvedwritingwall",
+    "masonry:granitecolumnwall",
+    "masonry:granitecutwall",
+    "masonry:graniteengravedwall",
+    "masonry:granitepanelswall",
+    "masonry:granitepaverswall",
+    "masonry:granitepillarwall",
+    "masonry:granitepolishedwall",
+    "masonry:graniteroughcutwall",
+    "masonry:granitetiledwall"
+  ]
+}

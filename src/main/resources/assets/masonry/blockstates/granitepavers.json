@@ -1,0 +1,8 @@
+﻿{
+  "variants": {
+    "facing=south": { "model": "masonry:block/granitepavers" },
+    "facing=west": { "model": "masonry:block/granitepavers", "y": 90 },
+    "facing=north": { "model": "masonry:block/granitepavers", "y": 180 },
+    "facing=east": { "model": "masonry:block/granitepavers", "y": 270 }
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "masonry:block/andesite_polished",
+        "down": "masonry:block/andesite_polished",
+        "up": "masonry:block/andesite_polished",
+        "north": "masonry:block/andesite_polished",
+        "east": "masonry:block/andesite_polished",
+        "south": "masonry:block/andesite_polished",
+        "west": "masonry:block/andesite_polished"
+    }
+}
