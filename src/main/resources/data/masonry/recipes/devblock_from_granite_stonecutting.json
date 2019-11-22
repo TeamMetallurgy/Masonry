@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "masonry:devblock"
-  },
-  "result": "minecraft:granite_slab",
-  "count": 2
-}

@@ -50,7 +50,6 @@ public class MasonryBlocks {
     public static Block GRANITE_PANELS = register("granitepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_PAVERS = register("granitepavers", new GlazedTerracottaBlock(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_PILLAR = register("granitepillar", new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block GRANITE_POLISHED = register("granitepolished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_ROUGH_CUT = register("graniteroughcut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_CARVED_CREEPER = register("andesitecarvedcreeper", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_CARVED_DERP = register("andesitecarvedderp", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
@@ -63,7 +62,6 @@ public class MasonryBlocks {
     public static Block ANDESITE_PANELS = register("andesitepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_PAVERS = register("andesitepavers", new GlazedTerracottaBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_PILLAR = register("andesitepillar", new RotatedPillarBlock(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block ANDESITE_POLISHED = register("andesitepolished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block ANDESITE_ROUGH_CUT = register("andesiteroughcut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DIORITE_CARVED_CREEPER = register("dioritecarvedcreeper", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DIORITE_CARVED_DERP = register("dioritecarvedderp", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
@@ -76,7 +74,6 @@ public class MasonryBlocks {
     public static Block DIORITE_PANELS = register("dioritepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DIORITE_PAVERS = register("dioritepavers", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DIORITE_PILLAR = register("dioritepillar", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block DIORITE_POLISHED = register("dioritepolished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DIORITE_ROUGH_CUT = register("dioriteroughcut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DIORITE_CHISELED = register("dioritechiseled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DIORITE_COBBLED = register("dioritecobbled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5F, 6.0F)));
@@ -94,7 +91,6 @@ public class MasonryBlocks {
     public static Block DARK_PRISMARINE_COLUMN = register("darkprismarinecolumn", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DARK_PRISMARINE_CUT = register("darkprismarinecut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DARK_PRISMARINE_ENGRAVED = register("darkprismarineengraved", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block DARK_PRISMARINE_PANELS = register("darkprismarinepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DARK_PRISMARINE_PAVERS = register("darkprismarinepavers", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DARK_PRISMARINE_PILLAR = register("darkprismarinepillar", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(1.5F, 6.0F)));
     public static Block DARK_PRISMARINE_POLISHED = register("darkprismarinepolished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIAMOND).hardnessAndResistance(1.5F, 6.0F)));
@@ -116,7 +112,6 @@ public class MasonryBlocks {
     public static Block PRISMARINE_CUT = register("prismarinecut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F)));
     public static Block PRISMARINE_ENGRAVED = register("prismarineengraved", new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F)));
     public static Block PRISMARINE_PANELS = register("prismarinepanels", new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block PRISMARINE_PAVERS = register("prismarinepavers", new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F)));
     public static Block PRISMARINE_PILLAR = register("prismarinepillar", new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F)));
     public static Block PRISMARINE_POLISHED = register("prismarinepolished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F)));
     public static Block PRISMARINE_ROUGH_CUT = register("prismarineroughcut", new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F)));
@@ -128,14 +123,7 @@ public class MasonryBlocks {
     public static Block PRISMARINE_LARGE_BRICKS_CRACKED = register("prismarinelargebrickscracked", new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F)));
     public static Block PRISMARINE_LARGE_BRICKS_MOSSY = register("prismarinelargebricksmossy", new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F)));
     public static Block PRISMARINE_SMALL_BRICK = register("prismarinesmallbrick", new Block(Block.Properties.create(Material.ROCK, MaterialColor.CYAN).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block STONE_CHISELED = register("stonechiseled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block STONE_COBBLED = register("stonecobbled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block STONE_COBBLED_MOSSY = register("stonecobbledmossy", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block STONE_DIAMOND_PAVERS = register("stonediamondpavers", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block STONE_LARGE_BRICKS = register("stonelargebricks", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block STONE_LARGE_BRICKS_CRACKED = register("stonelargebrickscracked", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block STONE_LARGE_BRICKS_MOSSY = register("stonelargebricksmossy", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
-    public static Block STONE_SMALL_BRICK = register("stonesmallbrick", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_CHISELED = register("granitechiseled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_COBBLED = register("granitecobbled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
     public static Block GRANITE_COBBLED_MOSSY = register("granitecobbledmossy", new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(1.5F, 6.0F)));
@@ -184,7 +172,7 @@ public class MasonryBlocks {
     public static final Block GRANITE_PANELS_WALL = register("granitepanelswall", new WallBlock(Block.Properties.from(GRANITE_PANELS)));
     public static final Block GRANITE_PAVERS_WALL = register("granitepaverswall", new WallBlock(Block.Properties.from(GRANITE_PAVERS)));
     public static final Block GRANITE_PILLAR_WALL = register("granitepillarwall", new WallBlock(Block.Properties.from(GRANITE_PILLAR)));
-    public static final Block GRANITE_POLISHED_WALL = register("granitepolishedwall", new WallBlock(Block.Properties.from(GRANITE_POLISHED)));
+    public static final Block GRANITE_POLISHED_WALL = register("granitepolishedwall", new WallBlock(Block.Properties.from(Blocks.POLISHED_GRANITE)));
     public static final Block GRANITE_ROUGH_CUT_WALL = register("graniteroughcutwall", new WallBlock(Block.Properties.from(GRANITE_ROUGH_CUT)));
     public static final Block GRANITE_TILED_WALL = register("granitetiledwall", new WallBlock(Block.Properties.from(GRANITE_TILED)));
     public static final Block ANDESITE_CARVED_CREEPER_WALL = register("andesitecarvedcreeperwall", new WallBlock(Block.Properties.from(ANDESITE_CARVED_CREEPER)));
@@ -198,7 +186,7 @@ public class MasonryBlocks {
     public static final Block ANDESITE_PANELS_WALL = register("andesitepanelswall", new WallBlock(Block.Properties.from(ANDESITE_PANELS)));
     public static final Block ANDESITE_PAVERS_WALL = register("andesitepaverswall", new WallBlock(Block.Properties.from(ANDESITE_PAVERS)));
     public static final Block ANDESITE_PILLAR_WALL = register("andesitepillarwall", new WallBlock(Block.Properties.from(ANDESITE_PILLAR)));
-    public static final Block ANDESITE_POLISHED_WALL = register("andesitepolishedwall", new WallBlock(Block.Properties.from(ANDESITE_POLISHED)));
+    public static final Block ANDESITE_POLISHED_WALL = register("andesitepolishedwall", new WallBlock(Block.Properties.from(Blocks.POLISHED_ANDESITE)));
     public static final Block ANDESITE_ROUGH_CUT_WALL = register("andesiteroughcutwall", new WallBlock(Block.Properties.from(ANDESITE_ROUGH_CUT)));
     public static final Block ANDESITE_TILED_WALL = register("andesitetiledwall", new WallBlock(Block.Properties.from(ANDESITE_TILED)));
     public static final Block DIORITE_CARVED_CREEPER_WALL = register("dioritecarvedcreeperwall", new WallBlock(Block.Properties.from(DIORITE_CARVED_CREEPER)));
@@ -212,7 +200,7 @@ public class MasonryBlocks {
     public static final Block DIORITE_PANELS_WALL = register("dioritepanelswall", new WallBlock(Block.Properties.from(DIORITE_PANELS)));
     public static final Block DIORITE_PAVERS_WALL = register("dioritepaverswall", new WallBlock(Block.Properties.from(DIORITE_PAVERS)));
     public static final Block DIORITE_PILLAR_WALL = register("dioritepillarwall", new WallBlock(Block.Properties.from(DIORITE_PILLAR)));
-    public static final Block DIORITE_POLISHED_WALL = register("dioritepolishedwall", new WallBlock(Block.Properties.from(DIORITE_POLISHED)));
+    public static final Block DIORITE_POLISHED_WALL = register("dioritepolishedwall", new WallBlock(Block.Properties.from(Blocks.POLISHED_DIORITE)));
     public static final Block DIORITE_ROUGH_CUT_WALL = register("dioriteroughcutwall", new WallBlock(Block.Properties.from(DIORITE_ROUGH_CUT)));
     public static final Block DIORITE_CHISELED_WALL = register("dioritechiseledwall", new WallBlock(Block.Properties.from(DIORITE_CHISELED)));
     public static final Block DIORITE_COBBLED_WALL = register("dioritecobbledwall", new WallBlock(Block.Properties.from(DIORITE_COBBLED)));
@@ -230,7 +218,7 @@ public class MasonryBlocks {
     public static final Block DARK_PRISMARINE_COLUMN_WALL = register("darkprismarinecolumnwall", new WallBlock(Block.Properties.from(DARK_PRISMARINE_COLUMN)));
     public static final Block DARK_PRISMARINE_CUT_WALL = register("darkprismarinecutwall", new WallBlock(Block.Properties.from(DARK_PRISMARINE_CUT)));
     public static final Block DARK_PRISMARINE_ENGRAVED_WALL = register("darkprismarineengravedwall", new WallBlock(Block.Properties.from(DARK_PRISMARINE_ENGRAVED)));
-    public static final Block DARK_PRISMARINE_PANELS_WALL = register("darkprismarinepanelswall", new WallBlock(Block.Properties.from(DARK_PRISMARINE_PANELS)));
+    public static final Block DARK_PRISMARINE_PANELS_WALL = register("darkprismarinepanelswall", new WallBlock(Block.Properties.from(Blocks.DARK_PRISMARINE)));
     public static final Block DARK_PRISMARINE_PAVERS_WALL = register("darkprismarinepaverswall", new WallBlock(Block.Properties.from(DARK_PRISMARINE_PAVERS)));
     public static final Block DARK_PRISMARINE_PILLAR_WALL = register("darkprismarinepillarwall", new WallBlock(Block.Properties.from(DARK_PRISMARINE_PILLAR)));
     public static final Block DARK_PRISMARINE_POLISHED_WALL = register("darkprismarinepolishedwall", new WallBlock(Block.Properties.from(DARK_PRISMARINE_POLISHED)));
@@ -252,7 +240,7 @@ public class MasonryBlocks {
     public static final Block PRISMARINE_CUT_WALL = register("prismarinecutwall", new WallBlock(Block.Properties.from(PRISMARINE_CUT)));
     public static final Block PRISMARINE_ENGRAVED_WALL = register("prismarineengravedwall", new WallBlock(Block.Properties.from(PRISMARINE_ENGRAVED)));
     public static final Block PRISMARINE_PANELS_WALL = register("prismarinepanelswall", new WallBlock(Block.Properties.from(PRISMARINE_PANELS)));
-    public static final Block PRISMARINE_PAVERS_WALL = register("prismarinepaverswall", new WallBlock(Block.Properties.from(PRISMARINE_PAVERS)));
+    public static final Block PRISMARINE_PAVERS_WALL = register("prismarinepaverswall", new WallBlock(Block.Properties.from(Blocks.PRISMARINE)));
     public static final Block PRISMARINE_PILLAR_WALL = register("prismarinepillarwall", new WallBlock(Block.Properties.from(PRISMARINE_PILLAR)));
     public static final Block PRISMARINE_POLISHED_WALL = register("prismarinepolishedwall", new WallBlock(Block.Properties.from(PRISMARINE_POLISHED)));
     public static final Block PRISMARINE_ROUGH_CUT_WALL = register("prismarineroughcutwall", new WallBlock(Block.Properties.from(PRISMARINE_ROUGH_CUT)));
@@ -264,14 +252,13 @@ public class MasonryBlocks {
     public static final Block PRISMARINE_LARGE_BRICKS_CRACKED_WALL = register("prismarinelargebrickscrackedwall", new WallBlock(Block.Properties.from(PRISMARINE_LARGE_BRICKS_CRACKED)));
     public static final Block PRISMARINE_LARGE_BRICKS_MOSSY_WALL = register("prismarinelargebricksmossywall", new WallBlock(Block.Properties.from(PRISMARINE_LARGE_BRICKS_MOSSY)));
     public static final Block PRISMARINE_SMALL_BRICK_WALL = register("prismarinesmallbrickwall", new WallBlock(Block.Properties.from(PRISMARINE_SMALL_BRICK)));
-    public static final Block STONE_CHISELED_WALL = register("stonechiseledwall", new WallBlock(Block.Properties.from(STONE_CHISELED)));
-    public static final Block STONE_COBBLED_WALL = register("stonecobbledwall", new WallBlock(Block.Properties.from(STONE_COBBLED)));
-    public static final Block STONE_COBBLED_MOSSY_WALL = register("stonecobbledmossywall", new WallBlock(Block.Properties.from(STONE_COBBLED_MOSSY)));
+    public static final Block STONE_CHISELED_WALL = register("stonechiseledwall", new WallBlock(Block.Properties.from(Blocks.CHISELED_STONE_BRICKS)));
+    public static final Block STONE_COBBLED_WALL = register("stonecobbledwall", new WallBlock(Block.Properties.from(Blocks.COBBLESTONE)));
+    public static final Block STONE_COBBLED_MOSSY_WALL = register("stonecobbledmossywall", new WallBlock(Block.Properties.from(Blocks.MOSSY_COBBLESTONE)));
     public static final Block STONE_DIAMOND_PAVERS_WALL = register("stonediamondpaverswall", new WallBlock(Block.Properties.from(STONE_DIAMOND_PAVERS)));
-    public static final Block STONE_LARGE_BRICKS_WALL = register("stonelargebrickswall", new WallBlock(Block.Properties.from(STONE_LARGE_BRICKS)));
-    public static final Block STONE_LARGE_BRICKS_CRACKED_WALL = register("stonelargebrickscrackedwall", new WallBlock(Block.Properties.from(STONE_LARGE_BRICKS_CRACKED)));
-    public static final Block STONE_LARGE_BRICKS_MOSSY_WALL = register("stonelargebricksmossywall", new WallBlock(Block.Properties.from(STONE_LARGE_BRICKS_MOSSY)));
-    public static final Block STONE_SMALL_BRICK_WALL = register("stonesmallbrickwall", new WallBlock(Block.Properties.from(STONE_SMALL_BRICK)));
+    public static final Block STONE_LARGE_BRICKS_WALL = register("stonelargebrickswall", new WallBlock(Block.Properties.from(Blocks.STONE_BRICKS)));
+    public static final Block STONE_LARGE_BRICKS_CRACKED_WALL = register("stonelargebrickscrackedwall", new WallBlock(Block.Properties.from(Blocks.CRACKED_STONE_BRICKS)));
+    public static final Block STONE_LARGE_BRICKS_MOSSY_WALL = register("stonelargebricksmossywall", new WallBlock(Block.Properties.from(Blocks.MOSSY_STONE_BRICKS)));
     public static final Block GRANITE_CHISELED_WALL = register("granitechiseledwall", new WallBlock(Block.Properties.from(GRANITE_CHISELED)));
     public static final Block GRANITE_COBBLED_WALL = register("granitecobbledwall", new WallBlock(Block.Properties.from(GRANITE_COBBLED)));
     public static final Block GRANITE_COBBLED_MOSSY_WALL = register("granitecobbledmossywall", new WallBlock(Block.Properties.from(GRANITE_COBBLED_MOSSY)));
@@ -320,7 +307,6 @@ public class MasonryBlocks {
     public static final Block GRANITE_PANELS_SLAB = register("granitepanelsslab", new SlabBlock(Block.Properties.from(GRANITE_PANELS)));
     public static final Block GRANITE_PAVERS_SLAB = register("granitepaversslab", new SlabBlock(Block.Properties.from(GRANITE_PAVERS)));
     public static final Block GRANITE_PILLAR_SLAB = register("granitepillarslab", new SlabBlock(Block.Properties.from(GRANITE_PILLAR)));
-    public static final Block GRANITE_POLISHED_SLAB = register("granitepolishedslab", new SlabBlock(Block.Properties.from(GRANITE_POLISHED)));
     public static final Block GRANITE_ROUGH_CUT_SLAB = register("graniteroughcutslab", new SlabBlock(Block.Properties.from(GRANITE_ROUGH_CUT)));
     public static final Block GRANITE_TILED_SLAB = register("granitetiledslab", new SlabBlock(Block.Properties.from(GRANITE_TILED)));
     public static final Block ANDESITE_CARVED_CREEPER_SLAB = register("andesitecarvedcreeperslab", new SlabBlock(Block.Properties.from(ANDESITE_CARVED_CREEPER)));
@@ -334,7 +320,6 @@ public class MasonryBlocks {
     public static final Block ANDESITE_PANELS_SLAB = register("andesitepanelsslab", new SlabBlock(Block.Properties.from(ANDESITE_PANELS)));
     public static final Block ANDESITE_PAVERS_SLAB = register("andesitepaversslab", new SlabBlock(Block.Properties.from(ANDESITE_PAVERS)));
     public static final Block ANDESITE_PILLAR_SLAB = register("andesitepillarslab", new SlabBlock(Block.Properties.from(ANDESITE_PILLAR)));
-    public static final Block ANDESITE_POLISHED_SLAB = register("andesitepolishedslab", new SlabBlock(Block.Properties.from(ANDESITE_POLISHED)));
     public static final Block ANDESITE_ROUGH_CUT_SLAB = register("andesiteroughcutslab", new SlabBlock(Block.Properties.from(ANDESITE_ROUGH_CUT)));
     public static final Block ANDESITE_TILED_SLAB = register("andesitetiledslab", new SlabBlock(Block.Properties.from(ANDESITE_TILED)));
     public static final Block DIORITE_CARVED_CREEPER_SLAB = register("dioritecarvedcreeperslab", new SlabBlock(Block.Properties.from(DIORITE_CARVED_CREEPER)));
@@ -348,7 +333,6 @@ public class MasonryBlocks {
     public static final Block DIORITE_PANELS_SLAB = register("dioritepanelsslab", new SlabBlock(Block.Properties.from(DIORITE_PANELS)));
     public static final Block DIORITE_PAVERS_SLAB = register("dioritepaversslab", new SlabBlock(Block.Properties.from(DIORITE_PAVERS)));
     public static final Block DIORITE_PILLAR_SLAB = register("dioritepillarslab", new SlabBlock(Block.Properties.from(DIORITE_PILLAR)));
-    public static final Block DIORITE_POLISHED_SLAB = register("dioritepolishedslab", new SlabBlock(Block.Properties.from(DIORITE_POLISHED)));
     public static final Block DIORITE_ROUGH_CUT_SLAB = register("dioriteroughcutslab", new SlabBlock(Block.Properties.from(DIORITE_ROUGH_CUT)));
     public static final Block DIORITE_CHISELED_SLAB = register("dioritechiseledslab", new SlabBlock(Block.Properties.from(DIORITE_CHISELED)));
     public static final Block DIORITE_COBBLED_SLAB = register("dioritecobbledslab", new SlabBlock(Block.Properties.from(DIORITE_COBBLED)));
@@ -366,7 +350,6 @@ public class MasonryBlocks {
     public static final Block DARK_PRISMARINE_COLUMN_SLAB = register("darkprismarinecolumnslab", new SlabBlock(Block.Properties.from(DARK_PRISMARINE_COLUMN)));
     public static final Block DARK_PRISMARINE_CUT_SLAB = register("darkprismarinecutslab", new SlabBlock(Block.Properties.from(DARK_PRISMARINE_CUT)));
     public static final Block DARK_PRISMARINE_ENGRAVED_SLAB = register("darkprismarineengravedslab", new SlabBlock(Block.Properties.from(DARK_PRISMARINE_ENGRAVED)));
-    public static final Block DARK_PRISMARINE_PANELS_SLAB = register("darkprismarinepanelsslab", new SlabBlock(Block.Properties.from(DARK_PRISMARINE_PANELS)));
     public static final Block DARK_PRISMARINE_PAVERS_SLAB = register("darkprismarinepaversslab", new SlabBlock(Block.Properties.from(DARK_PRISMARINE_PAVERS)));
     public static final Block DARK_PRISMARINE_PILLAR_SLAB = register("darkprismarinepillarslab", new SlabBlock(Block.Properties.from(DARK_PRISMARINE_PILLAR)));
     public static final Block DARK_PRISMARINE_POLISHED_SLAB = register("darkprismarinepolishedslab", new SlabBlock(Block.Properties.from(DARK_PRISMARINE_POLISHED)));
@@ -388,7 +371,6 @@ public class MasonryBlocks {
     public static final Block PRISMARINE_CUT_SLAB = register("prismarinecutslab", new SlabBlock(Block.Properties.from(PRISMARINE_CUT)));
     public static final Block PRISMARINE_ENGRAVED_SLAB = register("prismarineengravedslab", new SlabBlock(Block.Properties.from(PRISMARINE_ENGRAVED)));
     public static final Block PRISMARINE_PANELS_SLAB = register("prismarinepanelsslab", new SlabBlock(Block.Properties.from(PRISMARINE_PANELS)));
-    public static final Block PRISMARINE_PAVERS_SLAB = register("prismarinepaversslab", new SlabBlock(Block.Properties.from(PRISMARINE_PAVERS)));
     public static final Block PRISMARINE_PILLAR_SLAB = register("prismarinepillarslab", new SlabBlock(Block.Properties.from(PRISMARINE_PILLAR)));
     public static final Block PRISMARINE_POLISHED_SLAB = register("prismarinepolishedslab", new SlabBlock(Block.Properties.from(PRISMARINE_POLISHED)));
     public static final Block PRISMARINE_ROUGH_CUT_SLAB = register("prismarineroughcutslab", new SlabBlock(Block.Properties.from(PRISMARINE_ROUGH_CUT)));
@@ -400,14 +382,9 @@ public class MasonryBlocks {
     public static final Block PRISMARINE_LARGE_BRICKS_CRACKED_SLAB = register("prismarinelargebrickscrackedslab", new SlabBlock(Block.Properties.from(PRISMARINE_LARGE_BRICKS_CRACKED)));
     public static final Block PRISMARINE_LARGE_BRICKS_MOSSY_SLAB = register("prismarinelargebricksmossyslab", new SlabBlock(Block.Properties.from(PRISMARINE_LARGE_BRICKS_MOSSY)));
     public static final Block PRISMARINE_SMALL_BRICK_SLAB = register("prismarinesmallbrickslab", new SlabBlock(Block.Properties.from(PRISMARINE_SMALL_BRICK)));
-    public static final Block STONE_CHISELED_SLAB = register("stonechiseledslab", new SlabBlock(Block.Properties.from(STONE_CHISELED)));
-    public static final Block STONE_COBBLED_SLAB = register("stonecobbledslab", new SlabBlock(Block.Properties.from(STONE_COBBLED)));
-    public static final Block STONE_COBBLED_MOSSY_SLAB = register("stonecobbledmossyslab", new SlabBlock(Block.Properties.from(STONE_COBBLED_MOSSY)));
+    public static final Block STONE_CHISELED_SLAB = register("stonechiseledslab", new SlabBlock(Block.Properties.from(Blocks.CHISELED_STONE_BRICKS)));
     public static final Block STONE_DIAMOND_PAVERS_SLAB = register("stonediamondpaversslab", new SlabBlock(Block.Properties.from(STONE_DIAMOND_PAVERS)));
-    public static final Block STONE_LARGE_BRICKS_SLAB = register("stonelargebricksslab", new SlabBlock(Block.Properties.from(STONE_LARGE_BRICKS)));
-    public static final Block STONE_LARGE_BRICKS_CRACKED_SLAB = register("stonelargebrickscrackedslab", new SlabBlock(Block.Properties.from(STONE_LARGE_BRICKS_CRACKED)));
-    public static final Block STONE_LARGE_BRICKS_MOSSY_SLAB = register("stonelargebricksmossyslab", new SlabBlock(Block.Properties.from(STONE_LARGE_BRICKS_MOSSY)));
-    public static final Block STONE_SMALL_BRICK_SLAB = register("stonesmallbrickslab", new SlabBlock(Block.Properties.from(STONE_SMALL_BRICK)));
+    public static final Block STONE_LARGE_BRICKS_CRACKED_SLAB = register("stonelargebrickscrackedslab", new SlabBlock(Block.Properties.from(Blocks.CRACKED_STONE_BRICKS)));
     public static final Block GRANITE_CHISELED_SLAB = register("granitechiseledslab", new SlabBlock(Block.Properties.from(GRANITE_CHISELED)));
     public static final Block GRANITE_COBBLED_SLAB = register("granitecobbledslab", new SlabBlock(Block.Properties.from(GRANITE_COBBLED)));
     public static final Block GRANITE_COBBLED_MOSSY_SLAB = register("granitecobbledmossyslab", new SlabBlock(Block.Properties.from(GRANITE_COBBLED_MOSSY)));
@@ -424,11 +401,6 @@ public class MasonryBlocks {
     public static final Block ANDESITE_LARGE_BRICKS_CRACKED_SLAB = register("andesitelargebrickscrackedslab", new SlabBlock(Block.Properties.from(ANDESITE_LARGE_BRICKS_CRACKED)));
     public static final Block ANDESITE_LARGE_BRICKS_MOSSY_SLAB = register("andesitelargebricksmossyslab", new SlabBlock(Block.Properties.from(ANDESITE_LARGE_BRICKS_MOSSY)));
     public static final Block ANDESITE_SMALL_BRICK_SLAB = register("andesitesmallbrickslab", new SlabBlock(Block.Properties.from(ANDESITE_SMALL_BRICK)));
-
-
-
-
-
 
     private static Block register(String registryName, Block thisBlock){
         thisBlock.setRegistryName(registryName);
