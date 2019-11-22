@@ -1,12 +1,12 @@
 ﻿{
     "parent": "block/cube",
     "textures": {
-        "particle": "masonry:block/stone_cobbled",
-        "down": "masonry:block/stone_cobbled",
-        "up": "masonry:block/stone_cobbled",
-        "north": "masonry:block/stone_cobbled",
-        "east": "masonry:block/stone_cobbled",
-        "south": "masonry:block/stone_cobbled",
-        "west": "masonry:block/stone_cobbled"
+        "particle": "minecraft:block/cobblestone",
+        "down": "minecraft:block/cobblestone",
+        "up": "minecraft:block/cobblestone",
+        "north": "minecraft:block/cobblestone",
+        "east": "minecraft:block/cobblestone",
+        "south": "minecraft:block/cobblestone",
+        "west": "minecraft:block/cobblestone"
     }
 }

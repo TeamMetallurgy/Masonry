@@ -1,8 +1,8 @@
 ﻿{
     "parent": "block/slab",
     "textures": {
-        "bottom": "masonry:block/stone_large_bricks_mossy",
-        "top": "masonry:block/stone_large_bricks_mossy",
-        "side": "masonry:block/stone_large_bricks_mossy"
+        "bottom": "minecraft:block/mossy_stone_bricks",
+        "top": "minecraft:block/mossy_stone_bricks",
+        "side": "minecraft:block/mossy_stone_bricks"
     }
 }

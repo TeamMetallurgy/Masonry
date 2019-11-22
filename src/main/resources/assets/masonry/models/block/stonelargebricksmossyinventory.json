@@ -1,6 +1,6 @@
 ﻿{
 "parent": "block/wall_inventory",
     "textures": {
-        "wall": "masonry:block/stone_large_bricks_mossy"
+        "wall": "minecraft:block/mossy_stone_bricks"
     }
 }

@@ -1,8 +1,8 @@
 ﻿{
     "parent": "block/slab_top",
     "textures": {
-        "bottom": "masonry:block/stone_chiseled",
-        "top": "masonry:block/stone_chiseled",
-        "side": "masonry:block/stone_chiseled"
+        "bottom": "minecraft:block/chiseled_stone_bricks",
+        "top": "minecraft:block/chiseled_stone_bricks",
+        "side": "minecraft:block/chiseled_stone_bricks"
     }
 }

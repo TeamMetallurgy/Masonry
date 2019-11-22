@@ -1,8 +1,8 @@
 ﻿{
     "parent": "block/slab_top",
     "textures": {
-        "bottom": "masonry:block/stone_large_bricks_cracked",
-        "top": "masonry:block/stone_large_bricks_cracked",
-        "side": "masonry:block/stone_large_bricks_cracked"
+        "bottom": "minecraft:block/cracked_stone_bricks",
+        "top": "minecraft:block/cracked_stone_bricks",
+        "side": "minecraft:block/cracked_stone_bricks"
     }
 }

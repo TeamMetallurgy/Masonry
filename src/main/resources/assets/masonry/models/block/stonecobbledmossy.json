@@ -1,12 +1,12 @@
 ﻿{
     "parent": "block/cube",
     "textures": {
-        "particle": "masonry:block/stone_cobbled_mossy",
-        "down": "masonry:block/stone_cobbled_mossy",
-        "up": "masonry:block/stone_cobbled_mossy",
-        "north": "masonry:block/stone_cobbled_mossy",
-        "east": "masonry:block/stone_cobbled_mossy",
-        "south": "masonry:block/stone_cobbled_mossy",
-        "west": "masonry:block/stone_cobbled_mossy"
+        "particle": "minecraft:block/mossy_cobblestone",
+        "down": "minecraft:block/mossy_cobblestone",
+        "up": "minecraft:block/mossy_cobblestone",
+        "north": "minecraft:block/mossy_cobblestone",
+        "east": "minecraft:block/mossy_cobblestone",
+        "south": "minecraft:block/mossy_cobblestone",
+        "west": "minecraft:block/mossy_cobblestone"
     }
 }

@@ -1,6 +1,6 @@
 ﻿{
 "parent": "block/wall_inventory",
     "textures": {
-        "wall": "masonry:block/stone_large_bricks"
+        "wall": "minecraft:block/stone_bricks"
     }
 }
