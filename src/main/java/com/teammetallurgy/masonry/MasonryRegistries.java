@@ -10,12 +10,12 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MasonryRegistries {
     @SubscribeEvent
-    public static void registerBlocks(final RegistryEvent.Register<Block> event){
+    public static void registerBlocks(final RegistryEvent.Register<Block> event) {
         MasonryBlocks.registerBlocks(event);
     }
 
     @SubscribeEvent
-    public static void registerItems(final RegistryEvent.Register<Item> event){
+    public static void registerItems(final RegistryEvent.Register<Item> event) {
         MasonryBlocks.registerBlockItems(event);
     }
 }

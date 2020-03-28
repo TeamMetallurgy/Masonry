@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "masonry:granitecarvedcreeperwall",
+    "masonry:granitecarvedderpwall",
+    "masonry:granitecarvedvillagerwall",
+    "masonry:granitecarvedwitherwall",
+    "masonry:granitecarvedwritingwall",
+    "masonry:granitecolumnwall",
+    "masonry:granitecutwall",
+    "masonry:graniteengravedwall",
+    "masonry:granitepanelswall",
+    "masonry:granitepaverswall",
+    "masonry:granitepillarwall",
+    "masonry:granitepolishedwall",
+    "masonry:graniteroughcutwall",
+    "masonry:granitetiledwall",
+    "masonry:granitechiseledwall",
+    "masonry:granitecobbledwall",
+    "masonry:granitecobbledmossywall",
+    "masonry:granitediamondpaverswall",
+    "masonry:granitelargebrickswall",
+    "masonry:granitelargebrickscrackedwall",
+    "masonry:granitelargebricksmossywall",
+    "masonry:granitesmallbrickwall"
+  ]
+}

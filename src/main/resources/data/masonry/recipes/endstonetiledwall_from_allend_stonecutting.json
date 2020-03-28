@@ -1,7 +1,7 @@
 ﻿{
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "tag": "masonry:allend"
+    "tag": "masonry:allend_stone"
   },
   "result": "masonry:endstonetiledwall",
   "count": 1

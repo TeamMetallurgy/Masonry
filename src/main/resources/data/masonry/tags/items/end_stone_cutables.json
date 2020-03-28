@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#masonry:end_stone",
+    "#masonry:end_stone_wall"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "masonry:dioritetiledwall",
+    "masonry:dioritecarvedcreeperwall",
+    "masonry:dioritecarvedderpwall",
+    "masonry:dioritecarvedvillagerwall",
+    "masonry:dioritecarvedwitherwall",
+    "masonry:dioritecarvedwritingwall",
+    "masonry:dioritecolumnwall",
+    "masonry:dioritecutwall",
+    "masonry:dioriteengravedwall",
+    "masonry:dioritepanelswall",
+    "masonry:dioritepaverswall",
+    "masonry:dioritepillarwall",
+    "masonry:dioritepolishedwall",
+    "masonry:dioriteroughcutwall",
+    "masonry:dioritetiledwall",
+    "masonry:dioritechiseledwall",
+    "masonry:dioritecobbledwall",
+    "masonry:dioritecobbledmossywall",
+    "masonry:dioritediamondpaverswall",
+    "masonry:dioritelargebrickswall",
+    "masonry:dioritelargebrickscrackedwall",
+    "masonry:dioritelargebricksmossywall",
+    "masonry:dioritesmallbrickwall"
+  ]
+}

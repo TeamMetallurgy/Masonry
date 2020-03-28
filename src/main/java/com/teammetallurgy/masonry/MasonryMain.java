@@ -1,15 +1,9 @@
 package com.teammetallurgy.masonry;
 
-import com.teammetallurgy.masonry.blocks.MasonryBlocks;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
@@ -17,22 +11,18 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class MasonryMain {
     public static final String MOD_ID = "masonry";
 
-    public static ItemGroup itemGroup = new ItemGroup("masonry"){
+    public static final ItemGroup GROUP = new ItemGroup(MOD_ID) {
         @Override
-        public ItemStack createIcon(){
+        public ItemStack createIcon() {
             return new ItemStack(Blocks.STONECUTTER);
         }
     };
 
-    public MasonryMain(){
+    public MasonryMain() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
     }
 
-    private void setup(final FMLCommonSetupEvent event){
-
-    }
-
-    private void clientRegistries(final FMLClientSetupEvent event){
+    private void setup(final FMLCommonSetupEvent event) {
 
     }
 }

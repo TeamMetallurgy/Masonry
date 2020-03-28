@@ -8,7 +8,6 @@ import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.registries.ObjectHolder;
 
 import java.util.List;
 
@@ -406,7 +405,7 @@ public class MasonryBlocks {
         thisBlock.setRegistryName(registryName);
         BLOCKS.add(thisBlock);
 
-        Item.Properties properties = new Item.Properties().group(MasonryMain.itemGroup);
+        Item.Properties properties = new Item.Properties().group(MasonryMain.GROUP);
         BlockItem thisBlockItem = new BlockItem(thisBlock, properties);
         BLOCK_ITEMS.add(thisBlockItem.setRegistryName(registryName));
 

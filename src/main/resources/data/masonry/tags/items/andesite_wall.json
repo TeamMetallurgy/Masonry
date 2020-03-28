@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "masonry:andesitecarvedcreeperwall",
+    "masonry:andesitecarvedderpwall",
+    "masonry:andesitecarvedvillagerwall",
+    "masonry:andesitecarvedwitherwall",
+    "masonry:andesitecarvedwritingwall",
+    "masonry:andesitecolumnwall",
+    "masonry:andesitecutwall",
+    "masonry:andesiteengravedwall",
+    "masonry:andesitepanelswall",
+    "masonry:andesitepaverswall",
+    "masonry:andesitepillarwall",
+    "masonry:andesitepolishedwall",
+    "masonry:andesiteroughcutwall",
+    "masonry:andesitetiledwall",
+    "masonry:andesitechiseledwall",
+    "masonry:andesitecobbledwall",
+    "masonry:andesitecobbledmossywall",
+    "masonry:andesitediamondpaverswall",
+    "masonry:andesitelargebrickswall",
+    "masonry:andesitelargebrickscrackedwall",
+    "masonry:andesitelargebricksmossywall",
+    "masonry:andesitesmallbrickwall"
+  ]
+}

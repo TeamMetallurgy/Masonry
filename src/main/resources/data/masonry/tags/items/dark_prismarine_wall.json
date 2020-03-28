@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "masonry:darkprismarinetiledwall",
+    "masonry:darkprismarinecarvedcreeperwall",
+    "masonry:darkprismarinecarvedderpwall",
+    "masonry:darkprismarinecarvedvillagerwall",
+    "masonry:darkprismarinecarvedwitherwall",
+    "masonry:darkprismarinecarvedwritingwall",
+    "masonry:darkprismarinecolumnwall",
+    "masonry:darkprismarinecutwall",
+    "masonry:darkprismarineengravedwall",
+    "masonry:darkprismarinepanelswall",
+    "masonry:darkprismarinepaverswall",
+    "masonry:darkprismarinepillarwall",
+    "masonry:darkprismarinepolishedwall",
+    "masonry:darkprismarineroughcutwall",
+    "masonry:darkprismarinetiledwall",
+    "masonry:darkprismarinechiseledwall",
+    "masonry:darkprismarinecobbledwall",
+    "masonry:darkprismarinecobbledmossywall",
+    "masonry:darkprismarinediamondpaverswall",
+    "masonry:darkprismarinelargebrickswall",
+    "masonry:darkprismarinelargebrickscrackedwall",
+    "masonry:darkprismarinelargebricksmossywall",
+    "masonry:darkprismarinesmallbrickwall"
+  ]
+}

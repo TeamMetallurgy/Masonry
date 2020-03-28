@@ -1,7 +1,7 @@
 ﻿{
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "tag": "masonry:alldark"
+    "tag": "masonry:alldark_prismarine"
   },
   "result": "masonry:darkprismarinepillarwall",
   "count": 1
