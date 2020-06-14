@@ -401,6 +401,8 @@ public class MasonryBlocks {
     public static final Block ANDESITE_LARGE_BRICKS_MOSSY_SLAB = register("andesitelargebricksmossyslab", new SlabBlock(Block.Properties.from(ANDESITE_LARGE_BRICKS_MOSSY)));
     public static final Block ANDESITE_SMALL_BRICK_SLAB = register("andesitesmallbrickslab", new SlabBlock(Block.Properties.from(ANDESITE_SMALL_BRICK)));
 
+    public static final Block DEV_STAIRS = register("devstairs", new StairsBlock(() -> ANDESITE_SMALL_BRICK.getDefaultState(), Block.Properties.from(ANDESITE_SMALL_BRICK)));
+
     private static Block register(String registryName, Block thisBlock){
         thisBlock.setRegistryName(registryName);
         BLOCKS.add(thisBlock);
