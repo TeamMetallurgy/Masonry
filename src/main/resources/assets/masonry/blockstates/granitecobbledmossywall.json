@@ -1,19 +1,90 @@
 ﻿{
-"multipart": [
-        {   "when": { "up": "true" },
-            "apply": { "model": "masonry:block/granitecobbledmossypost" }
-        },
-        {   "when": { "north": "true" },
-            "apply": { "model": "masonry:block/granitecobbledmossyside", "uvlock": true }
-        },
-        {   "when": { "east": "true" },
-            "apply": { "model": "masonry:block/granitecobbledmossyside", "y": 90, "uvlock": true }
-        },
-        {   "when": { "south": "true" },
-            "apply": { "model": "masonry:block/granitecobbledmossyside", "y": 180, "uvlock": true }
-        },
-        {   "when": { "west": "true" },
-            "apply": { "model": "masonry:block/granitecobbledmossyside", "y": 270, "uvlock": true }
-        }
-    ]
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "masonry:block/granitecobbledmossypost"
+      }
+    },
+    {
+      "when": {
+        "north": "low"
+      },
+      "apply": {
+        "model": "masonry:block/granitecobbledmossyside",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "low"
+      },
+      "apply": {
+        "model": "masonry:block/granitecobbledmossyside",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "low"
+      },
+      "apply": {
+        "model": "masonry:block/granitecobbledmossyside",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "low"
+      },
+      "apply": {
+        "model": "masonry:block/granitecobbledmossyside",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/granitecobbledmossysidetall",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/granitecobbledmossysidetall",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/granitecobbledmossysidetall",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/granitecobbledmossysidetall",
+        "y": 270,
+        "uvlock": true
+      }
+    }
+  ]
 }

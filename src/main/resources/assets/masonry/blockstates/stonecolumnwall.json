@@ -1,19 +1,90 @@
 ﻿{
-"multipart": [
-        {   "when": { "up": "true" },
-            "apply": { "model": "masonry:block/stonecolumnpost" }
-        },
-        {   "when": { "north": "true" },
-            "apply": { "model": "masonry:block/stonecolumnside", "uvlock": true }
-        },
-        {   "when": { "east": "true" },
-            "apply": { "model": "masonry:block/stonecolumnside", "y": 90, "uvlock": true }
-        },
-        {   "when": { "south": "true" },
-            "apply": { "model": "masonry:block/stonecolumnside", "y": 180, "uvlock": true }
-        },
-        {   "when": { "west": "true" },
-            "apply": { "model": "masonry:block/stonecolumnside", "y": 270, "uvlock": true }
-        }
-    ]
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "masonry:block/stonecolumnpost"
+      }
+    },
+    {
+      "when": {
+        "north": "low"
+      },
+      "apply": {
+        "model": "masonry:block/stonecolumnside",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "low"
+      },
+      "apply": {
+        "model": "masonry:block/stonecolumnside",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "low"
+      },
+      "apply": {
+        "model": "masonry:block/stonecolumnside",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "low"
+      },
+      "apply": {
+        "model": "masonry:block/stonecolumnside",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/stonecolumnsidetall",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/stonecolumnsidetall",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/stonecolumnsidetall",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/stonecolumnsidetall",
+        "y": 270,
+        "uvlock": true
+      }
+    }
+  ]
 }

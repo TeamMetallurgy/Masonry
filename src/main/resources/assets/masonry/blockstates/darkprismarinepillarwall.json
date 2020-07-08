@@ -1,19 +1,90 @@
 ﻿{
-"multipart": [
-        {   "when": { "up": "true" },
-            "apply": { "model": "masonry:block/darkprismarinepillarpost" }
-        },
-        {   "when": { "north": "true" },
-            "apply": { "model": "masonry:block/darkprismarinepillarside", "uvlock": true }
-        },
-        {   "when": { "east": "true" },
-            "apply": { "model": "masonry:block/darkprismarinepillarside", "y": 90, "uvlock": true }
-        },
-        {   "when": { "south": "true" },
-            "apply": { "model": "masonry:block/darkprismarinepillarside", "y": 180, "uvlock": true }
-        },
-        {   "when": { "west": "true" },
-            "apply": { "model": "masonry:block/darkprismarinepillarside", "y": 270, "uvlock": true }
-        }
-    ]
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "masonry:block/darkprismarinepillarpost"
+      }
+    },
+    {
+      "when": {
+        "north": "low"
+      },
+      "apply": {
+        "model": "masonry:block/darkprismarinepillarside",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "low"
+      },
+      "apply": {
+        "model": "masonry:block/darkprismarinepillarside",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "low"
+      },
+      "apply": {
+        "model": "masonry:block/darkprismarinepillarside",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "low"
+      },
+      "apply": {
+        "model": "masonry:block/darkprismarinepillarside",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/darkprismarinepillarsidetall",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/darkprismarinepillarsidetall",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/darkprismarinepillarsidetall",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "masonry:block/darkprismarinepillarsidetall",
+        "y": 270,
+        "uvlock": true
+      }
+    }
+  ]
 }
