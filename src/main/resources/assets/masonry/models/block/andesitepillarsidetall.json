@@ -1,0 +1,6 @@
+﻿{
+"parent": "block/template_wall_side_tall",
+    "textures": {
+        "wall": "masonry:block/andesite_pillar_side"
+    }
+}

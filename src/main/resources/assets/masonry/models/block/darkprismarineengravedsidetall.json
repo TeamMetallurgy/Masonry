@@ -1,0 +1,6 @@
+﻿{
+"parent": "block/template_wall_side_tall",
+    "textures": {
+        "wall": "masonry:block/dark_prismarine_engraved_side"
+    }
+}
