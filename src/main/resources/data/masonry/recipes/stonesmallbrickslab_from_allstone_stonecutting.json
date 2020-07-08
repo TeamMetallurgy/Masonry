@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allstone"
-  },
-  "result": "masonry:stonesmallbrickslab",
-  "count": 2
-}
