@@ -8,7 +8,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod("masonry")
-public class MasonryMain {
+public final class MasonryMain {
     public static final String MOD_ID = "masonry";
 
     public static final ItemGroup GROUP = new ItemGroup(MOD_ID) {

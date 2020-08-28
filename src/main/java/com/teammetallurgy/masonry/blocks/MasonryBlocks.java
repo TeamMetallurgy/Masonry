@@ -404,25 +404,25 @@ public class MasonryBlocks {
             ANDESITE_LARGE_BRICKS_MOSSY_SLAB = register("andesitelargebricksmossyslab", new SlabBlock(Block.Properties.from(ANDESITE_LARGE_BRICKS_MOSSY))),
             ANDESITE_SMALL_BRICK_SLAB = register("andesitesmallbrickslab", new SlabBlock(Block.Properties.from(ANDESITE_SMALL_BRICK)));
 
-    private static Block register(String registryName, Block thisBlock){
+    private static Block register(final String registryName, final Block thisBlock) {
         thisBlock.setRegistryName(registryName);
         BLOCKS.add(thisBlock);
 
-        Item.Properties properties = new Item.Properties().group(MasonryMain.GROUP);
-        BlockItem thisBlockItem = new BlockItem(thisBlock, properties);
+        final Item.Properties properties = new Item.Properties().group(MasonryMain.GROUP);
+        final BlockItem thisBlockItem = new BlockItem(thisBlock, properties);
         BLOCK_ITEMS.add(thisBlockItem.setRegistryName(registryName));
 
         return thisBlock;
     }
 
     public static void registerBlocks(final RegistryEvent.Register<Block> event) {
-        for(Block thisBlock : BLOCKS){
+        for (final Block thisBlock : BLOCKS) {
             event.getRegistry().register(thisBlock);
         }
     }
 
-    public static void registerBlockItems(final RegistryEvent.Register<Item> event){
-        for(Item thisBlockItem : BLOCK_ITEMS){
+    public static void registerBlockItems(final RegistryEvent.Register<Item> event) {
+        for (final Item thisBlockItem : BLOCK_ITEMS) {
             event.getRegistry().register(thisBlockItem);
         }
     }

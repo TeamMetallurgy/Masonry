@@ -8,7 +8,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class MasonryRegistries {
+public final class MasonryRegistries {
     @SubscribeEvent
     public static void registerBlocks(final RegistryEvent.Register<Block> event) {
         MasonryBlocks.registerBlocks(event);
