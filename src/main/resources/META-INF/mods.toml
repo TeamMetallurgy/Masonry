@@ -1,6 +1,7 @@
 modLoader="javafml"
-loaderVersion="[32,)"
+loaderVersion="[33,)"
 issueTrackerURL="https://github.com/TeamMetallurgy/Masonry/issues"
+license="All Rights Reserved" # Todo: Consider a better license such as MIT, LGPL, BSD, Creative Commons, etc... :(
 
 [[mods]]
 modId="masonry"
@@ -9,7 +10,7 @@ displayName="Masonry"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/masonry"
 #logoFile="examplemod.png"
 credits="Shadowclaimer - Artist/Designer, Vequinox - Programmer"
-authors="Shadowclaimer, Vequinox"
+authors="Shadowclaimer, Vequinox, Paint_Ninja"
 description='''
 Masonry is a mod that adds more decorative block options to the Stonecutter's recipe list, as well as a few craftable blocks.
 '''
@@ -17,12 +18,12 @@ Masonry is a mod that adds more decorative block options to the Stonecutter's re
 [[dependencies.masonry]]
     modId="forge"
     mandatory=true
-    versionRange="[32,)"
+    versionRange="[33,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.masonry]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.1]"
+    versionRange="[1.16.2]"
     ordering="NONE"
     side="BOTH"
