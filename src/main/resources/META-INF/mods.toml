@@ -1,6 +1,7 @@
 modLoader="javafml"
-loaderVersion="[31,)"
+loaderVersion="[32,)"
 issueTrackerURL="https://github.com/TeamMetallurgy/Masonry/issues"
+license="GNU Lesser General Public License, version 2.1"
 
 [[mods]]
 modId="masonry"
@@ -17,12 +18,12 @@ Masonry is a mod that adds more decorative block options to the Stonecutter's re
 [[dependencies.masonry]]
     modId="forge"
     mandatory=true
-    versionRange="[31,)"
+    versionRange="[32.0.90,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.masonry]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.1,]"
     ordering="NONE"
     side="BOTH"

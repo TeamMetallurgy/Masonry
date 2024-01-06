@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:alldark_prismarine"
-  },
-  "result": "masonry:darkprismarinepanelsslab",
-  "count": 2
-}
