@@ -1,62 +1,59 @@
-buildscript {
-    repositories {
-        maven { url = 'https://files.minecraftforge.net/maven' }
-        jcenter()
-        mavenCentral()
-    }
-    dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
-    }
+plugins {
+    id 'idea'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
 }
-apply plugin: 'net.minecraftforge.gradle'
-// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
-apply plugin: 'eclipse'
-apply plugin: 'maven-publish'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
 
 repositories {
-  /*maven {
-    name = "JEI maven"
-    url = "https://dvs1.progwml6.com/files/maven/"
-  }*/
+  maven { 
+    name = "JEI"
+    url = "https://maven.blamejared.com" 
+  }
+  flatDir { dirs 'deps' }
 }
 
 version = "${minecraft_version}-${mod_version}"
 group = "com.teammetallurgy.masonry"
-archivesBaseName = "masonry"
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+base {
+    archivesName = "Masonry"
+}
 
 minecraft {
-    mappings channel: 'snapshot', version: '20200514-1.16'
-
+    mappings channel: 'official', version: project.minecraft_version
+	//accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+	enableIdeaPrepareRuns = true
+	copyIdeResources = true
+	generateRunFolders = true
+	
     runs {
         client {
             workingDirectory project.file('run')
+			
             mods {
-                masonry {
+                "${mod_id}" {
                     source sourceSets.main
                 }
             }
         }
-
         server {
             workingDirectory project.file('run')
+
             mods {
-                masonry {
+                "${mod_id}" {
                     source sourceSets.main
                 }
             }
         }
-
         data {
             workingDirectory project.file('run')
-            args '--mod', 'masonry', '--all', '--output', file('src/generated/resources/')
-
+            args '--mod', "${mod_id}", '--all', '--output', file("src/generated/resources/"), '--existing', file("src/main/resources/")
             mods {
-                masonry {
+                "${mod_id}" {
                     source sourceSets.main
                 }
             }
@@ -66,21 +63,29 @@ minecraft {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    //compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}:${jei_version}:api")
-    //runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}:${jei_version}")
+    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}")
+    runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
 }
 
-jar {
-    manifest {
-        attributes([
-            "Specification-Version": "${version}"
-        ])
-    }
-}
+def resourceTargets = ['META-INF/mods.toml']
+def replaceProperties = [
+        minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
+        forge_version: forge_version, forge_version_range: forge_version_range,
+        loader_version_range: loader_version_range,
+        mod_version: mod_version,
+]
 
 processResources {
+    inputs.properties replaceProperties
+    replaceProperties.put 'project', project
+
+    filesMatching(resourceTargets) {
+        expand replaceProperties
+    }
+	
     // Minifies all .json files when building the mod.
-	// Source files are not minified, only the jar copies.
+    // Source files are not minified, only the jar copies.
 	doLast {
 	    def jsonMinifyStart = System.currentTimeMillis()
 	    def jsonMinified = 0
@@ -95,4 +100,8 @@ processResources {
 		}
 		println('Minified ' + jsonMinified + ' json files. Saved ' + jsonBytesSaved + ' bytes. Took ' + (System.currentTimeMillis() - jsonMinifyStart) + 'ms.')
 	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
 }
