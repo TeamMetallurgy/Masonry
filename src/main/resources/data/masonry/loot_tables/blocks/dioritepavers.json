@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:dioritepavers"
+          "name": "masonry:diorite_pavers"
         }
       ],
       "conditions": [

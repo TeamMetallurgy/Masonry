@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "masonry:darkprismarinecobbledslab",
+                  "block": "masonry:dark_prismarine_cobbled_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "masonry:darkprismarinecobbledslab"
+          "name": "masonry:dark_prismarine_cobbled_slab"
         }
       ]
     }

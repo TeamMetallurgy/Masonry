@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:dioritecarvedwriting"
+          "name": "masonry:diorite_carved_writing"
         }
       ],
       "conditions": [

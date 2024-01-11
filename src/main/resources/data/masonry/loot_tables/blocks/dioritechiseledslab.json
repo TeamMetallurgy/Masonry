@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "masonry:dioritechiseledslab",
+                  "block": "masonry:diorite_chiseled_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "masonry:dioritechiseledslab"
+          "name": "masonry:diorite_chiseled_slab"
         }
       ]
     }

@@ -3,6 +3,6 @@
   "ingredient": {
     "tag": "masonry:allstone"
   },
-  "result": "masonry:stoneroughcut",
+  "result": "masonry:stone_rough_cut",
   "count": 1
 }

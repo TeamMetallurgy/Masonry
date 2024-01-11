@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "masonry:dioritecutslab",
+                  "block": "masonry:diorite_cut_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "masonry:dioritecutslab"
+          "name": "masonry:diorite_cut_slab"
         }
       ]
     }

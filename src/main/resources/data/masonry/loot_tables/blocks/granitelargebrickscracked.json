@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:granitelargebrickscracked"
+          "name": "masonry:granite_large_bricks_cracked"
         }
       ],
       "conditions": [

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:granitechiseled"
+          "name": "masonry:granite_chiseled"
         }
       ],
       "conditions": [

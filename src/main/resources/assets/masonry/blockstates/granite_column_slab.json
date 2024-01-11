@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/granite_column_slab" },
+        "type=top": { "model": "masonry:block/granite_column_slab_top"},
+        "type=double": { "model": "masonry:block/granite_column" }
+    }
+}

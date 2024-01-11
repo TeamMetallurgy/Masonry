@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesitecobbledwall"
+          "name": "masonry:andesite_cobbled_wall"
         }
       ],
       "conditions": [

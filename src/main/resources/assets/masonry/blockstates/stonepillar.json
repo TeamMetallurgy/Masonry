@@ -1,7 +1,0 @@
-﻿{
-  "variants": {
-    "axis=y":  { "model": "masonry:block/stonepillar" },
-    "axis=z":   { "model": "masonry:block/stonepillar", "x": 90 },
-    "axis=x":   { "model": "masonry:block/stonepillar", "x": 90, "y": 90 }
-  }
-}

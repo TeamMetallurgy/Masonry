@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/andesitelargebrickscrackedslab" },
-        "type=top": { "model": "masonry:block/andesitelargebrickscrackedslabtop" },
-        "type=double": { "model": "masonry:block/andesitelargebrickscracked" }
-    }
-}

@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/granite_carved_writing_slab" },
+        "type=top": { "model": "masonry:block/granite_carved_writing_slab_top"},
+        "type=double": { "model": "masonry:block/granite_carved_writing" }
+    }
+}

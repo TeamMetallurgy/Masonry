@@ -1,0 +1,7 @@
+﻿{
+  "variants": {
+    "": [
+      { "model": "masonry:block/end_stone_tiled" }
+    ]
+  }
+}

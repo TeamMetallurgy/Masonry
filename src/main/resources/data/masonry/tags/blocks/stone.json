@@ -1,20 +1,20 @@
 {
   "replace": false,
   "values": [
-    "masonry:stonecarvedcreeper",
-    "masonry:stonecarvedderp",
-    "masonry:stonecarvedvillager",
-    "masonry:stonecarvedwither",
-    "masonry:stonecarvedwriting",
-    "masonry:stonecolumn",
-    "masonry:stonecut",
-    "masonry:stoneengraved",
-    "masonry:stonepanels",
-    "masonry:stonepavers",
-    "masonry:stonepillar",
-    "masonry:stonepolished",
-    "masonry:stoneroughcut",
-    "masonry:stonetiled",
-    "masonry:stonediamondpavers"
+    "masonry:stone_carved_creeper",
+    "masonry:stone_carved_derp",
+    "masonry:stone_carved_villager",
+    "masonry:stone_carved_wither",
+    "masonry:stone_carved_writing",
+    "masonry:stone_column",
+    "masonry:stone_cut",
+    "masonry:stone_engraved",
+    "masonry:stone_panels",
+    "masonry:stone_pavers",
+    "masonry:stone_pillar",
+    "masonry:stone_polished",
+    "masonry:stone_rough_cut",
+    "masonry:stone_tiled",
+    "masonry:stone_diamond_pavers"
   ]
 }

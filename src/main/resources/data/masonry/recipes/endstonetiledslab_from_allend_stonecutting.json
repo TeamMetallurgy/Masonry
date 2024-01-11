@@ -3,6 +3,6 @@
   "ingredient": {
     "tag": "masonry:allend_stone"
   },
-  "result": "masonry:endstonetiledslab",
+  "result": "masonry:end_stone_tiled_slab",
   "count": 2
 }

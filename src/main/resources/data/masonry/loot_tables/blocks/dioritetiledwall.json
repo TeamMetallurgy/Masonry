@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:dioritetiledwall"
+          "name": "masonry:diorite_tiled_wall"
         }
       ],
       "conditions": [

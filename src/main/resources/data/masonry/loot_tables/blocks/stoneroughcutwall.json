@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:stoneroughcutwall"
+          "name": "masonry:stone_rough_cut_wall"
         }
       ],
       "conditions": [

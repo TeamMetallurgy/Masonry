@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:dioritecolumn"
+          "name": "masonry:diorite_column"
         }
       ],
       "conditions": [

@@ -1,0 +1,7 @@
+﻿{
+  "variants": {
+    "axis=y":  { "model": "masonry:block/andesite_pillar" },
+    "axis=z":   { "model": "masonry:block/andesite_pillar", "x": 90 },
+    "axis=x":   { "model": "masonry:block/andesite_pillar", "x": 90, "y": 90 }
+  }
+}

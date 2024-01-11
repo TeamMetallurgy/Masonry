@@ -3,6 +3,6 @@
   "ingredient": {
     "tag": "masonry:allnetherrack"
   },
-  "result": "masonry:netherracktiledwall",
+  "result": "masonry:netherrack_tiled_wall",
   "count": 1
 }

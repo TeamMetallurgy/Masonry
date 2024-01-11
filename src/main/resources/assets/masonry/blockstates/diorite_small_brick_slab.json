@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/diorite_small_brick_slab" },
+        "type=top": { "model": "masonry:block/diorite_small_brick_slab_top"},
+        "type=double": { "model": "masonry:block/diorite_small_brick" }
+    }
+}

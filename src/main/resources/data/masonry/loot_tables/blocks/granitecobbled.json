@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:granitecobbled"
+          "name": "masonry:granite_cobbled"
         }
       ],
       "conditions": [

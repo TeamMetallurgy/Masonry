@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/prismarinecarvedderpslab" },
-        "type=top": { "model": "masonry:block/prismarinecarvedderpslabtop" },
-        "type=double": { "model": "masonry:block/prismarinecarvedderp" }
-    }
-}

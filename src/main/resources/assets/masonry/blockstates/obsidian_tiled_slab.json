@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/obsidian_tiled_slab" },
+        "type=top": { "model": "masonry:block/obsidian_tiled_slab_top"},
+        "type=double": { "model": "masonry:block/obsidian_tiled" }
+    }
+}

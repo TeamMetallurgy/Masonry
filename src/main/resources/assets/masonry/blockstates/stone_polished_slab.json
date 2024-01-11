@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/stone_polished_slab" },
+        "type=top": { "model": "masonry:block/stone_polished_slab_top"},
+        "type=double": { "model": "masonry:block/stone_polished" }
+    }
+}

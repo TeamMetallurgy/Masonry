@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:granitepolishedwall"
+          "name": "masonry:granite_polished_wall"
         }
       ],
       "conditions": [

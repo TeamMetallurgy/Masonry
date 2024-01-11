@@ -3,6 +3,6 @@
   "ingredient": {
     "tag": "masonry:allstone"
   },
-  "result": "masonry:stonepaversslab",
+  "result": "masonry:stone_pavers_slab",
   "count": 2
 }

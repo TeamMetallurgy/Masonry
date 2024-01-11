@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/dark_prismarine_cobbled_slab" },
+        "type=top": { "model": "masonry:block/dark_prismarine_cobbled_slab_top"},
+        "type=double": { "model": "masonry:block/dark_prismarine_cobbled" }
+    }
+}

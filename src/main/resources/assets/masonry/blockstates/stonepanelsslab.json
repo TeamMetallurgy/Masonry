@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/stonepanelsslab" },
-        "type=top": { "model": "masonry:block/stonepanelsslabtop" },
-        "type=double": { "model": "masonry:block/stonepanels" }
-    }
-}

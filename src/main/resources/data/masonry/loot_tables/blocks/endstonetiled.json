@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:endstonetiled"
+          "name": "masonry:end_stone_tiled"
         }
       ],
       "conditions": [

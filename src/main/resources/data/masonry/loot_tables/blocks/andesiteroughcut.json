@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesiteroughcut"
+          "name": "masonry:andesite_rough_cut"
         }
       ],
       "conditions": [

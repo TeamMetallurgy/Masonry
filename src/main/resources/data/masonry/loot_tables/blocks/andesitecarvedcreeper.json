@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesitecarvedcreeper"
+          "name": "masonry:andesite_carved_creeper"
         }
       ],
       "conditions": [

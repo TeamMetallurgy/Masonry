@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/netherracktiledslab" },
-        "type=top": { "model": "masonry:block/netherracktiledslabtop" },
-        "type=double": { "model": "masonry:block/netherracktiled" }
-    }
-}

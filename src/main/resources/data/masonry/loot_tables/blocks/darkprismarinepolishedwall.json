@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:darkprismarinepolishedwall"
+          "name": "masonry:dark_prismarine_polished_wall"
         }
       ],
       "conditions": [

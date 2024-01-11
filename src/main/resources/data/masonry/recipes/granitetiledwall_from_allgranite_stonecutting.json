@@ -3,6 +3,6 @@
   "ingredient": {
     "tag": "masonry:allgranite"
   },
-  "result": "masonry:granitetiledwall",
+  "result": "masonry:granite_tiled_wall",
   "count": 1
 }

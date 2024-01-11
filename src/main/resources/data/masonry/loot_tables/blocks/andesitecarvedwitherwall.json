@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesitecarvedwitherwall"
+          "name": "masonry:andesite_carved_wither_wall"
         }
       ],
       "conditions": [

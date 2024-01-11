@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/andesitecarvedderpslab" },
-        "type=top": { "model": "masonry:block/andesitecarvedderpslabtop" },
-        "type=double": { "model": "masonry:block/andesitecarvedderp" }
-    }
-}

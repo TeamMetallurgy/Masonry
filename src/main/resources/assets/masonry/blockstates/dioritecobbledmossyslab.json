@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/dioritecobbledmossyslab" },
-        "type=top": { "model": "masonry:block/dioritecobbledmossyslabtop" },
-        "type=double": { "model": "masonry:block/dioritecobbledmossy" }
-    }
-}

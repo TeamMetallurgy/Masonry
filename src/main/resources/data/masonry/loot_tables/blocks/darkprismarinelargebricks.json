@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:darkprismarinelargebricks"
+          "name": "masonry:dark_prismarine_large_bricks"
         }
       ],
       "conditions": [

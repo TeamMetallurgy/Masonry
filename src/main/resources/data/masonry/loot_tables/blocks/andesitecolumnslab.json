@@ -12,7 +12,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "masonry:andesitecolumnslab",
+                  "block": "masonry:andesite_column_slab",
                   "properties": {
                     "type": "double"
                   }
@@ -24,7 +24,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "masonry:andesitecolumnslab"
+          "name": "masonry:andesite_column_slab"
         }
       ]
     }

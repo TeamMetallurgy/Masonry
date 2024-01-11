@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:granitediamondpavers"
+          "name": "masonry:granite_diamond_pavers"
         }
       ],
       "conditions": [

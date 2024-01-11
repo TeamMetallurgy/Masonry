@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/darkprismarinecarvedcreeperslab" },
-        "type=top": { "model": "masonry:block/darkprismarinecarvedcreeperslabtop" },
-        "type=double": { "model": "masonry:block/darkprismarinecarvedcreeper" }
-    }
-}

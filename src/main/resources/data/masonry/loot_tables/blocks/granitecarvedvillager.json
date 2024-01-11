@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:granitecarvedvillager"
+          "name": "masonry:granite_carved_villager"
         }
       ],
       "conditions": [

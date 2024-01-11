@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesiteengraved"
+          "name": "masonry:andesite_engraved"
         }
       ],
       "conditions": [

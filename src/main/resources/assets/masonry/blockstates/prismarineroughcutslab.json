@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/prismarineroughcutslab" },
-        "type=top": { "model": "masonry:block/prismarineroughcutslabtop" },
-        "type=double": { "model": "masonry:block/prismarineroughcut" }
-    }
-}

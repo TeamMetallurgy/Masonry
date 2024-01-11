@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/andesitecobbledslab" },
-        "type=top": { "model": "masonry:block/andesitecobbledslabtop" },
-        "type=double": { "model": "masonry:block/andesitecobbled" }
-    }
-}

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:netherracktiledwall"
+          "name": "masonry:netherrack_tiled_wall"
         }
       ],
       "conditions": [

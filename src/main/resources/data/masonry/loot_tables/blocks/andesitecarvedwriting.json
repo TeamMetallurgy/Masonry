@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesitecarvedwriting"
+          "name": "masonry:andesite_carved_writing"
         }
       ],
       "conditions": [

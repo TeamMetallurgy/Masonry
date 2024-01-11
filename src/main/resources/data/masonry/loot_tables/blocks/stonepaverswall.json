@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:stonepaverswall"
+          "name": "masonry:stone_pavers_wall"
         }
       ],
       "conditions": [

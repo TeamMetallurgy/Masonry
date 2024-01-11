@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/granitecobbledmossyslab" },
-        "type=top": { "model": "masonry:block/granitecobbledmossyslabtop" },
-        "type=double": { "model": "masonry:block/granitecobbledmossy" }
-    }
-}

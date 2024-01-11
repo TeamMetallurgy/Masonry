@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:dioritetiled"
+          "name": "masonry:diorite_tiled"
         }
       ],
       "conditions": [

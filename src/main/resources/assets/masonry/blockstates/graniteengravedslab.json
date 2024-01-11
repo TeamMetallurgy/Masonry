@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/graniteengravedslab" },
-        "type=top": { "model": "masonry:block/graniteengravedslabtop" },
-        "type=double": { "model": "masonry:block/graniteengraved" }
-    }
-}

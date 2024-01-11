@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesitelargebricksmossy"
+          "name": "masonry:andesite_large_bricks_mossy"
         }
       ],
       "conditions": [

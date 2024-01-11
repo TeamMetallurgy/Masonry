@@ -1,7 +1,0 @@
-﻿{
-    "variants": {
-        "type=bottom": { "model": "masonry:block/stonepolishedslab" },
-        "type=top": { "model": "masonry:block/stonepolishedslabtop" },
-        "type=double": { "model": "masonry:block/stonepolished" }
-    }
-}

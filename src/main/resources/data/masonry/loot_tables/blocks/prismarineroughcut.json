@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:prismarineroughcut"
+          "name": "masonry:prismarine_rough_cut"
         }
       ],
       "conditions": [

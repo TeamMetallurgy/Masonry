@@ -1,0 +1,7 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "masonry:block/prismarine_engraved_slab" },
+        "type=top": { "model": "masonry:block/prismarine_engraved_slab_top"},
+        "type=double": { "model": "masonry:block/prismarine_engraved" }
+    }
+}

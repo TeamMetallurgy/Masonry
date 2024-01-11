@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesitesmallbrickwall"
+          "name": "masonry:andesite_small_brick_wall"
         }
       ],
       "conditions": [

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:stonepolished"
+          "name": "masonry:stone_polished"
         }
       ],
       "conditions": [

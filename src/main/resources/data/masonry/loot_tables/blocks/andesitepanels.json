@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesitepanels"
+          "name": "masonry:andesite_panels"
         }
       ],
       "conditions": [

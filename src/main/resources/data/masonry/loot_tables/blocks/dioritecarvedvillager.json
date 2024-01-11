@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:dioritecarvedvillager"
+          "name": "masonry:diorite_carved_villager"
         }
       ],
       "conditions": [

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:prismarinelargebrickscracked"
+          "name": "masonry:prismarine_large_bricks_cracked"
         }
       ],
       "conditions": [

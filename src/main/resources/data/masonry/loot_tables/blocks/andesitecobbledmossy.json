@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesitecobbledmossy"
+          "name": "masonry:andesite_cobbled_mossy"
         }
       ],
       "conditions": [

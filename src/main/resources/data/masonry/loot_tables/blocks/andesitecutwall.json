@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "masonry:andesitecutwall"
+          "name": "masonry:andesite_cut_wall"
         }
       ],
       "conditions": [
