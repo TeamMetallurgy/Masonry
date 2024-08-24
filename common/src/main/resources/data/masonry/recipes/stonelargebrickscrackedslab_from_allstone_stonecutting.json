@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allstone"
-  },
-  "result": "masonry:stone_large_bricks_cracked_slab",
-  "count": 2
-}

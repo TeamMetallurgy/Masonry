@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allandesite"
-  },
-  "result": "masonry:andesite_rough_cut",
-  "count": 1
-}

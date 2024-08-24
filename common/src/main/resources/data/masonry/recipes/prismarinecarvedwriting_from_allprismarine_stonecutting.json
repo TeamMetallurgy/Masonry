@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allprismarine"
-  },
-  "result": "masonry:prismarine_carved_writing",
-  "count": 1
-}

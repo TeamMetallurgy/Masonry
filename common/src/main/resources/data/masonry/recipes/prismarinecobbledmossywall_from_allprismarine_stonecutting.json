@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allprismarine"
-  },
-  "result": "masonry:prismarine_cobbled_mossy_wall",
-  "count": 1
-}

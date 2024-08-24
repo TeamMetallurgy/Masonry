@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:alldiorite"
-  },
-  "result": "masonry:diorite_cobbled_mossy",
-  "count": 1
-}

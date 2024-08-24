@@ -1,0 +1,10 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:alldark_prismarine"
+  },
+  "result": {
+    "id": "masonry:dark_prismarine_polished",
+    "count": 1
+  }
+}

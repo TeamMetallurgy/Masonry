@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allprismarine"
-  },
-  "result": "masonry:prismarine_pillar",
-  "count": 1
-}

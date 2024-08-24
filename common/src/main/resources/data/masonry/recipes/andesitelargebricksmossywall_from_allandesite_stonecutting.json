@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allandesite"
-  },
-  "result": "masonry:andesite_large_bricks_mossy_wall",
-  "count": 1
-}

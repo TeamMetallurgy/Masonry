@@ -1,0 +1,10 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:allstone"
+  },
+  "result": {
+    "id": "masonry:stone_pillar_wall",
+    "count": 1
+  }
+}

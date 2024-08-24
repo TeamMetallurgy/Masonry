@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:alldiorite"
-  },
-  "result": "masonry:diorite_cut_wall",
-  "count": 1
-}

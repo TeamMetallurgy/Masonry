@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allgranite"
-  },
-  "result": "masonry:granite_panels_wall",
-  "count": 1
-}

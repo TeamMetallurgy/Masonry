@@ -1,0 +1,10 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:allgranite"
+  },
+  "result": {
+    "id": "masonry:granite_engraved_slab",
+    "count": 2
+  }
+}

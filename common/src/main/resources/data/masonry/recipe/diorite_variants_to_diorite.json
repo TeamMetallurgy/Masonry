@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "masonry:diorite"
+  },
+  "result": {
+    "id": "minecraft:diorite"
+  },
+  "cookingtime": 200
+}

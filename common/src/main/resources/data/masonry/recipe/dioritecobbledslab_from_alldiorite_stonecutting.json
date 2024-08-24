@@ -1,0 +1,10 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:alldiorite"
+  },
+  "result": {
+    "id": "masonry:diorite_cobbled_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:allstone"
+  },
+  "result": {
+    "id": "masonry:stone_pavers",
+    "count": 1
+  }
+}

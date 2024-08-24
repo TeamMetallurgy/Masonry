@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "masonry:dark_prismarine"
-  },
-  "result": "minecraft:dark_prismarine",
-  "cookingtime": 200
-}

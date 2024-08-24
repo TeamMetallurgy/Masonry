@@ -1,0 +1,10 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:allandesite"
+  },
+  "result": {
+    "id": "masonry:andesite_pavers_wall",
+    "count": 1
+  }
+}

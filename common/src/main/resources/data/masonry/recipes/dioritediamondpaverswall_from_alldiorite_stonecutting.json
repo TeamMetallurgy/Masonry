@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:alldiorite"
-  },
-  "result": "masonry:diorite_diamond_pavers_wall",
-  "count": 1
-}

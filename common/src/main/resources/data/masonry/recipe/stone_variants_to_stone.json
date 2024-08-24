@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "masonry:stone"
+  },
+  "result": {
+    "id": "minecraft:stone"
+  },
+  "cookingtime": 200
+}

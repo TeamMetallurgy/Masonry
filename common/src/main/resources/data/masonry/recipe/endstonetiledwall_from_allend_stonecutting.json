@@ -1,0 +1,10 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "masonry:allend_stone"
+  },
+  "result": {
+    "id": "masonry:end_stone_tiled_wall",
+    "count": 1
+  }
+}
