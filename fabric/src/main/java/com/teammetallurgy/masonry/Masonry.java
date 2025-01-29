@@ -6,6 +6,6 @@ public class Masonry implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        CommonClass.init();
+        MasonryCommon.init();
     }
 }

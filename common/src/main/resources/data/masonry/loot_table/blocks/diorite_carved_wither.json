@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "masonry:diorite_carved_wither"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "masonry:blocks/diorite_carved_wither"
+}

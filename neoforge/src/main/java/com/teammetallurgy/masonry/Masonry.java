@@ -9,7 +9,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 public class Masonry {
 
     public Masonry(IEventBus eventBus) {
-        CommonClass.init();
+        MasonryCommon.init();
         eventBus.addListener(this::setupCommon);
         eventBus.addListener(this::setupClient);
     }

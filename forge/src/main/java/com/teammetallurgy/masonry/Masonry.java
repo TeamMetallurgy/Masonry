@@ -10,7 +10,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class Masonry {
 
     public Masonry() {
-        CommonClass.init();
+        MasonryCommon.init();
         final IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setupCommon);
         eventBus.addListener(this::setupClient);

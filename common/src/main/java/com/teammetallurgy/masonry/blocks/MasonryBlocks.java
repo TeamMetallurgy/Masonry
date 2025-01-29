@@ -17,6 +17,7 @@ public class MasonryBlocks {
     public static final RegistrationProvider<Block> BLOCK_DEFERRED = RegistrationProvider.get(BuiltInRegistries.BLOCK, Constants.MOD_ID);
     public static final RegistrationProvider<Item> ITEM_DEFERRED = RegistrationProvider.get(BuiltInRegistries.ITEM, Constants.MOD_ID);
     public static final Collection<RegistryObject<Item>> ITEMS_FOR_TAB_LIST = new ArrayList<>();
+    public static final Collection<RegistryObject<Block>> BLOCKS = new ArrayList<>();
 
     //public static final RegistryObject<Block> DEV_BLOCK = register("devblock", () -> new Block(Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F)));
     public static final RegistryObject<Block> ANDESITE_TILED = register("andesite_tiled", () -> new Block(Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F)));
@@ -412,8 +413,8 @@ public class MasonryBlocks {
 
     private static RegistryObject<Block> register(String name, Supplier<Block> blockSupplier) {
         RegistryObject<Block> block = BLOCK_DEFERRED.register(name, blockSupplier);
-
         RegistryObject<Item> blockItem = ITEM_DEFERRED.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        BLOCKS.add(block);
         ITEMS_FOR_TAB_LIST.add(blockItem);
 
         return block;
