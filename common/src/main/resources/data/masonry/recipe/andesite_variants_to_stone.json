@@ -1,8 +1,7 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "masonry:andesite"
-  },
+  "category": "blocks",
+  "ingredient": "#masonry:andesite",
   "result": {
     "id": "minecraft:andesite"
   },

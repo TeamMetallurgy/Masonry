@@ -1,8 +1,6 @@
 ﻿{
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:alldiorite"
-  },
+  "ingredient": "#masonry:alldiorite",
   "result": {
     "id": "masonry:diorite_large_bricks_cracked",
     "count": 1

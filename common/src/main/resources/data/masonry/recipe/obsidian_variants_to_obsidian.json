@@ -1,8 +1,7 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "masonry:obsidian"
-  },
+  "category": "blocks",
+  "ingredient": "#masonry:obsidian",
   "result": {
     "id": "minecraft:obsidian"
   },

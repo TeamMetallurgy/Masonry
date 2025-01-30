@@ -1,8 +1,7 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "masonry:prismarine"
-  },
+  "category": "blocks",
+  "ingredient": "#masonry:prismarine",
   "result": {
     "id": "minecraft:prismarine"
   },

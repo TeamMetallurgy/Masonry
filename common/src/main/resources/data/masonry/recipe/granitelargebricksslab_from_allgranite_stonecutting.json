@@ -1,8 +1,6 @@
 ﻿{
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allgranite"
-  },
+  "ingredient": "#masonry:allgranite",
   "result": {
     "id": "masonry:granite_large_bricks_slab",
     "count": 2

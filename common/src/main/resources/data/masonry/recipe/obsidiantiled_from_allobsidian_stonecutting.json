@@ -1,8 +1,6 @@
 ﻿{
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allobsidian"
-  },
+  "ingredient": "#masonry:allobsidian",
   "result": {
     "id": "masonry:obsidian_tiled",
     "count": 1

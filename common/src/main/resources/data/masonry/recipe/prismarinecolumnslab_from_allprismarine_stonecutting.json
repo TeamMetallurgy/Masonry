@@ -1,8 +1,6 @@
 ﻿{
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allprismarine"
-  },
+  "ingredient": "#masonry:allprismarine",
   "result": {
     "id": "masonry:prismarine_column_slab",
     "count": 2

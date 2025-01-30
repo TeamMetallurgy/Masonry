@@ -1,7 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "{TAG}"
+  "ingredient": "{TAG}"
   },
   "result": "masonry:{CHILD_ITEM}",
   "count": {COUNT}

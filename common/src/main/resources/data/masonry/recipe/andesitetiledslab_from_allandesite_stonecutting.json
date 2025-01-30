@@ -1,8 +1,6 @@
 ﻿{
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allandesite"
-  },
+  "ingredient": "#masonry:allandesite",
   "result": {
     "id": "masonry:andesite_tiled_slab",
     "count": 2

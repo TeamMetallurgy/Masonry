@@ -1,8 +1,6 @@
 ﻿{
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "masonry:allstone"
-  },
+  "ingredient": "#masonry:allstone",
   "result": {
     "id": "masonry:stone_panels_slab",
     "count": 2
