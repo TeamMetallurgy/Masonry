@@ -222,7 +222,7 @@ pip-log.txt
 .mr.developer.cfg
 
 #############
-## ForgeGradle
+## NeoForge
 #############
 .gradle/
 build/
@@ -231,5 +231,4 @@ runs/
 eclipse/
 CREDITS-fml.txt
 LICENSE-fml.txt
-MinecraftForge-Credits.txt
-MinecraftForge-License.txt
+neoforge/src/generated/

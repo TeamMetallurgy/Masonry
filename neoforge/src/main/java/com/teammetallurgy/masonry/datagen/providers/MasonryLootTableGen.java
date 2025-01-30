@@ -1,4 +1,4 @@
-package com.teammetallurgy.masonry.datagen;
+package com.teammetallurgy.masonry.datagen.providers;
 
 import com.teammetallurgy.masonry.blocks.MasonryBlocks;
 import com.teammetallurgy.masonry.registration.RegistryObject;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
-public class LootTableGen {
+public class MasonryLootTableGen {
 
     public static LootTableProvider create(PackOutput gen, CompletableFuture<HolderLookup.Provider> lookup) {
         return new LootTableProvider(gen, Set.of(), List.of(

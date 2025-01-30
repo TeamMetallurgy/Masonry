@@ -17,7 +17,7 @@ public class MasonryCommon {
             .icon(() -> new ItemStack(Blocks.STONECUTTER))
             .title(Component.translatable("tabs." + Constants.MOD_ID + ".tab"))
             .displayItems((featureFlagSet, tabOutput) -> {
-                MasonryBlocks.ITEMS_FOR_TAB_LIST.forEach(registryObject -> tabOutput.accept(new ItemStack(registryObject.get())));
+                MasonryBlocks.BLOCK_ITEMS.forEach(registryObject -> tabOutput.accept(new ItemStack(registryObject.get())));
             }).build()
     );
 

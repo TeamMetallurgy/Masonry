@@ -1,0 +1,7 @@
+{
+  "hand_animation_on_swap": false,
+  "model": {
+    "type": "minecraft:model",
+    "model": "masonry:block/stone_polished_slab"
+  }
+}

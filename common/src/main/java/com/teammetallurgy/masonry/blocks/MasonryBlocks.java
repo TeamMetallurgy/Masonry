@@ -16,14 +16,16 @@ import net.minecraft.world.level.material.MapColor;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
 public class MasonryBlocks {
     public static final RegistrationProvider<Block> BLOCK_DEFERRED = RegistrationProvider.get(BuiltInRegistries.BLOCK, Constants.MOD_ID);
     public static final RegistrationProvider<Item> ITEM_DEFERRED = RegistrationProvider.get(BuiltInRegistries.ITEM, Constants.MOD_ID);
-    public static final Collection<RegistryObject<Item, Item>> ITEMS_FOR_TAB_LIST = new ArrayList<>();
+    public static final Collection<RegistryObject<Item, BlockItem>> BLOCK_ITEMS = new ArrayList<>();
     public static final Collection<RegistryObject<Block, Block>> BLOCKS = new ArrayList<>();
+    public static final HashMap<RegistryObject<Block, Block>, Supplier<Block>> BASED_ON = new HashMap<>();
 
     //public static final RegistryObject<Block, Block> DEV_BLOCK = register("devblock", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> ANDESITE_TILED = register("andesite_tiled", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
@@ -34,7 +36,7 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> NETHERRACK_TILED = register("netherrack_tiled", Block::new, Block.Properties.of().mapColor(MapColor.NETHER).strength(0.4F, 0.4F));
     public static final RegistryObject<Block, Block> OBSIDIAN_TILED = register("obsidian_tiled", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_BLACK).strength(50.0F, 1200.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_TILED = register("prismarine_tiled", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> STONE_CARVED_CREEPER = register("stone_carved_creeper", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> STONE_CARVED_CREEPER = register("stone_carved_creeper", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> STONE_CARVED_DERP = register("stone_carved_derp", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> STONE_CARVED_VILLAGER = register("stone_carved_villager", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> STONE_CARVED_WITHER = register("stone_carved_wither", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
@@ -48,7 +50,7 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> STONE_POLISHED = register("stone_polished", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> STONE_ROUGH_CUT = register("stone_rough_cut", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> STONE_TILED = register("stone_tiled", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> GRANITE_CARVED_CREEPER = register("granite_carved_creeper", Block::new, Block.Properties.of().mapColor(MapColor.DIRT).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> GRANITE_CARVED_CREEPER = register("granite_carved_creeper", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.DIRT).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> GRANITE_CARVED_DERP = register("granite_carved_derp", Block::new, Block.Properties.of().mapColor(MapColor.DIRT).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> GRANITE_CARVED_VILLAGER = register("granite_carved_villager", Block::new, Block.Properties.of().mapColor(MapColor.DIRT).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> GRANITE_CARVED_WITHER = register("granite_carved_wither", Block::new, Block.Properties.of().mapColor(MapColor.DIRT).strength(1.5F, 6.0F));
@@ -60,7 +62,7 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> GRANITE_PAVERS = register("granite_pavers", GlazedTerracottaBlock::new, Block.Properties.of().mapColor(MapColor.DIRT).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> GRANITE_PILLAR = register("granite_pillar", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.DIRT).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> GRANITE_ROUGH_CUT = register("granite_rough_cut", Block::new, Block.Properties.of().mapColor(MapColor.DIRT).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> ANDESITE_CARVED_CREEPER = register("andesite_carved_creeper", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> ANDESITE_CARVED_CREEPER = register("andesite_carved_creeper", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> ANDESITE_CARVED_DERP = register("andesite_carved_derp", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> ANDESITE_CARVED_VILLAGER = register("andesite_carved_villager", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> ANDESITE_CARVED_WITHER = register("andesite_carved_wither", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
@@ -72,17 +74,17 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> ANDESITE_PAVERS = register("andesite_pavers", GlazedTerracottaBlock::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> ANDESITE_PILLAR = register("andesite_pillar", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> ANDESITE_ROUGH_CUT = register("andesite_rough_cut", Block::new, Block.Properties.of().mapColor(MapColor.STONE).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> DIORITE_CARVED_CREEPER = register("diorite_carved_creeper", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> DIORITE_CARVED_CREEPER = register("diorite_carved_creeper", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_CARVED_DERP = register("diorite_carved_derp", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_CARVED_VILLAGER = register("diorite_carved_villager", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_CARVED_WITHER = register("diorite_carved_wither", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_CARVED_WRITING = register("diorite_carved_writing", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> DIORITE_COLUMN = register("diorite_column", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> DIORITE_COLUMN = register("diorite_column", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_CUT = register("diorite_cut", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_ENGRAVED = register("diorite_engraved", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_PANELS = register("diorite_panels", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_PAVERS = register("diorite_pavers", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> DIORITE_PILLAR = register("diorite_pillar", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> DIORITE_PILLAR = register("diorite_pillar", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_ROUGH_CUT = register("diorite_rough_cut", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_CHISELED = register("diorite_chiseled", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_COBBLED = register("diorite_cobbled", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
@@ -92,16 +94,16 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> DIORITE_LARGE_BRICKS_CRACKED = register("diorite_large_bricks_cracked", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_LARGE_BRICKS_MOSSY = register("diorite_large_bricks_mossy", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DIORITE_SMALL_BRICK = register("diorite_small_brick", Block::new, Block.Properties.of().mapColor(MapColor.QUARTZ).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> DARK_PRISMARINE_CARVED_CREEPER = register("dark_prismarine_carved_creeper", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> DARK_PRISMARINE_CARVED_CREEPER = register("dark_prismarine_carved_creeper", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_CARVED_DERP = register("dark_prismarine_carved_derp", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_CARVED_VILLAGER = register("dark_prismarine_carved_villager", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_CARVED_WITHER = register("dark_prismarine_carved_wither", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_CARVED_WRITING = register("dark_prismarine_carved_writing", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> DARK_PRISMARINE_COLUMN = register("dark_prismarine_column", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> DARK_PRISMARINE_COLUMN = register("dark_prismarine_column", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_CUT = register("dark_prismarine_cut", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_ENGRAVED = register("dark_prismarine_engraved", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_PAVERS = register("dark_prismarine_pavers", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> DARK_PRISMARINE_PILLAR = register("dark_prismarine_pillar", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> DARK_PRISMARINE_PILLAR = register("dark_prismarine_pillar", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_POLISHED = register("dark_prismarine_polished", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_ROUGH_CUT = register("dark_prismarine_rough_cut", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_CHISELED = register("dark_prismarine_chiseled", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
@@ -112,16 +114,16 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_LARGE_BRICKS_CRACKED = register("dark_prismarine_large_bricks_cracked", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_LARGE_BRICKS_MOSSY = register("dark_prismarine_large_bricks_mossy", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_SMALL_BRICK = register("dark_prismarine_small_brick", Block::new, Block.Properties.of().mapColor(MapColor.DIAMOND).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> PRISMARINE_CARVED_CREEPER = register("prismarine_carved_creeper", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> PRISMARINE_CARVED_CREEPER = register("prismarine_carved_creeper", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_CARVED_DERP = register("prismarine_carved_derp", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_CARVED_VILLAGER = register("prismarine_carved_villager", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_CARVED_WITHER = register("prismarine_carved_wither", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_CARVED_WRITING = register("prismarine_carved_writing", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> PRISMARINE_COLUMN = register("prismarine_column", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> PRISMARINE_COLUMN = register("prismarine_column", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_CUT = register("prismarine_cut", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_ENGRAVED = register("prismarine_engraved", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_PANELS = register("prismarine_panels", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
-    public static final RegistryObject<Block, Block> PRISMARINE_PILLAR = register("prismarine_pillar", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
+    public static final RegistryObject<Block, Block> PRISMARINE_PILLAR = register("prismarine_pillar", RotatedPillarBlock::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_POLISHED = register("prismarine_polished", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_ROUGH_CUT = register("prismarine_rough_cut", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
     public static final RegistryObject<Block, Block> PRISMARINE_CHISELED = register("prismarine_chiseled", Block::new, Block.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(1.5F, 6.0F));
@@ -184,7 +186,7 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> GRANITE_PANELS_WALL = register("granite_panels_wall", WallBlock::new, GRANITE_PANELS);
     public static final RegistryObject<Block, Block> GRANITE_PAVERS_WALL = register("granite_pavers_wall", WallBlock::new, GRANITE_PAVERS);
     public static final RegistryObject<Block, Block> GRANITE_PILLAR_WALL = register("granite_pillar_wall", WallBlock::new, GRANITE_PILLAR);
-    public static final RegistryObject<Block, Block> GRANITE_POLISHED_WALL = register("granite_polished_wall", WallBlock::new, Blocks.POLISHED_GRANITE);
+    public static final RegistryObject<Block, Block> GRANITE_POLISHED_WALL = register("granite_polished_wall", WallBlock::new, () -> Blocks.POLISHED_GRANITE);
     public static final RegistryObject<Block, Block> GRANITE_ROUGH_CUT_WALL = register("granite_rough_cut_wall", WallBlock::new, GRANITE_ROUGH_CUT);
     public static final RegistryObject<Block, Block> GRANITE_TILED_WALL = register("granite_tiled_wall", WallBlock::new, GRANITE_TILED);
     public static final RegistryObject<Block, Block> ANDESITE_CARVED_CREEPER_WALL = register("andesite_carved_creeper_wall", WallBlock::new, ANDESITE_CARVED_CREEPER);
@@ -198,7 +200,7 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> ANDESITE_PANELS_WALL = register("andesite_panels_wall", WallBlock::new, ANDESITE_PANELS);
     public static final RegistryObject<Block, Block> ANDESITE_PAVERS_WALL = register("andesite_pavers_wall", WallBlock::new, ANDESITE_PAVERS);
     public static final RegistryObject<Block, Block> ANDESITE_PILLAR_WALL = register("andesite_pillar_wall", WallBlock::new, ANDESITE_PILLAR);
-    public static final RegistryObject<Block, Block> ANDESITE_POLISHED_WALL = register("andesite_polished_wall", WallBlock::new, Blocks.POLISHED_ANDESITE);
+    public static final RegistryObject<Block, Block> ANDESITE_POLISHED_WALL = register("andesite_polished_wall", WallBlock::new, () -> Blocks.POLISHED_ANDESITE);
     public static final RegistryObject<Block, Block> ANDESITE_ROUGH_CUT_WALL = register("andesite_rough_cut_wall", WallBlock::new, ANDESITE_ROUGH_CUT);
     public static final RegistryObject<Block, Block> ANDESITE_TILED_WALL = register("andesite_tiled_wall", WallBlock::new, ANDESITE_TILED);
     public static final RegistryObject<Block, Block> DIORITE_CARVED_CREEPER_WALL = register("diorite_carved_creeper_wall", WallBlock::new, DIORITE_CARVED_CREEPER);
@@ -212,7 +214,7 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> DIORITE_PANELS_WALL = register("diorite_panels_wall", WallBlock::new, DIORITE_PANELS);
     public static final RegistryObject<Block, Block> DIORITE_PAVERS_WALL = register("diorite_pavers_wall", WallBlock::new, DIORITE_PAVERS);
     public static final RegistryObject<Block, Block> DIORITE_PILLAR_WALL = register("diorite_pillar_wall", WallBlock::new, DIORITE_PILLAR);
-    public static final RegistryObject<Block, Block> DIORITE_POLISHED_WALL = register("diorite_polished_wall", WallBlock::new, Blocks.POLISHED_DIORITE);
+    public static final RegistryObject<Block, Block> DIORITE_POLISHED_WALL = register("diorite_polished_wall", WallBlock::new, () -> Blocks.POLISHED_DIORITE);
     public static final RegistryObject<Block, Block> DIORITE_ROUGH_CUT_WALL = register("diorite_rough_cut_wall", WallBlock::new, DIORITE_ROUGH_CUT);
     public static final RegistryObject<Block, Block> DIORITE_CHISELED_WALL = register("diorite_chiseled_wall", WallBlock::new, DIORITE_CHISELED);
     public static final RegistryObject<Block, Block> DIORITE_COBBLED_WALL = register("diorite_cobbled_wall", WallBlock::new, DIORITE_COBBLED);
@@ -230,7 +232,7 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_COLUMN_WALL = register("dark_prismarine_column_wall", WallBlock::new, DARK_PRISMARINE_COLUMN);
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_CUT_WALL = register("dark_prismarine_cut_wall", WallBlock::new, DARK_PRISMARINE_CUT);
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_ENGRAVED_WALL = register("dark_prismarine_engraved_wall", WallBlock::new, DARK_PRISMARINE_ENGRAVED);
-    public static final RegistryObject<Block, Block> DARK_PRISMARINE_PANELS_WALL = register("dark_prismarine_panels_wall", WallBlock::new, Blocks.DARK_PRISMARINE);
+    public static final RegistryObject<Block, Block> DARK_PRISMARINE_PANELS_WALL = register("dark_prismarine_panels_wall", WallBlock::new, () -> Blocks.DARK_PRISMARINE);
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_PAVERS_WALL = register("dark_prismarine_pavers_wall", WallBlock::new, DARK_PRISMARINE_PAVERS);
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_PILLAR_WALL = register("dark_prismarine_pillar_wall", WallBlock::new, DARK_PRISMARINE_PILLAR);
     public static final RegistryObject<Block, Block> DARK_PRISMARINE_POLISHED_WALL = register("dark_prismarine_polished_wall", WallBlock::new, DARK_PRISMARINE_POLISHED);
@@ -252,7 +254,7 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> PRISMARINE_CUT_WALL = register("prismarine_cut_wall", WallBlock::new, PRISMARINE_CUT);
     public static final RegistryObject<Block, Block> PRISMARINE_ENGRAVED_WALL = register("prismarine_engraved_wall", WallBlock::new, PRISMARINE_ENGRAVED);
     public static final RegistryObject<Block, Block> PRISMARINE_PANELS_WALL = register("prismarine_panels_wall", WallBlock::new, PRISMARINE_PANELS);
-    public static final RegistryObject<Block, Block> PRISMARINE_PAVERS_WALL = register("prismarine_pavers_wall", WallBlock::new, Blocks.PRISMARINE);
+    public static final RegistryObject<Block, Block> PRISMARINE_PAVERS_WALL = register("prismarine_pavers_wall", WallBlock::new, () -> Blocks.PRISMARINE);
     public static final RegistryObject<Block, Block> PRISMARINE_PILLAR_WALL = register("prismarine_pillar_wall", WallBlock::new, PRISMARINE_PILLAR);
     public static final RegistryObject<Block, Block> PRISMARINE_POLISHED_WALL = register("prismarine_polished_wall", WallBlock::new, PRISMARINE_POLISHED);
     public static final RegistryObject<Block, Block> PRISMARINE_ROUGH_CUT_WALL = register("prismarine_rough_cut_wall", WallBlock::new, PRISMARINE_ROUGH_CUT);
@@ -264,13 +266,13 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> PRISMARINE_LARGE_BRICKS_CRACKED_WALL = register("prismarine_large_bricks_cracked_wall", WallBlock::new, PRISMARINE_LARGE_BRICKS_CRACKED);
     public static final RegistryObject<Block, Block> PRISMARINE_LARGE_BRICKS_MOSSY_WALL = register("prismarine_large_bricks_mossy_wall", WallBlock::new, PRISMARINE_LARGE_BRICKS_MOSSY);
     public static final RegistryObject<Block, Block> PRISMARINE_SMALL_BRICK_WALL = register("prismarine_small_brick_wall", WallBlock::new, PRISMARINE_SMALL_BRICK);
-    public static final RegistryObject<Block, Block> STONE_CHISELED_WALL = register("stone_chiseled_wall", WallBlock::new, Blocks.CHISELED_STONE_BRICKS);
-    public static final RegistryObject<Block, Block> STONE_COBBLED_WALL = register("stone_cobbled_wall", WallBlock::new, Blocks.COBBLESTONE);
-    public static final RegistryObject<Block, Block> STONE_COBBLED_MOSSY_WALL = register("stone_cobbled_mossy_wall", WallBlock::new, Blocks.MOSSY_COBBLESTONE);
+    public static final RegistryObject<Block, Block> STONE_CHISELED_WALL = register("stone_chiseled_wall", WallBlock::new, () -> Blocks.CHISELED_STONE_BRICKS);
+    public static final RegistryObject<Block, Block> STONE_COBBLED_WALL = register("stone_cobbled_wall", WallBlock::new, () -> Blocks.COBBLESTONE);
+    public static final RegistryObject<Block, Block> STONE_COBBLED_MOSSY_WALL = register("stone_cobbled_mossy_wall", WallBlock::new, () -> Blocks.MOSSY_COBBLESTONE);
     public static final RegistryObject<Block, Block> STONE_DIAMOND_PAVERS_WALL = register("stone_diamond_pavers_wall", WallBlock::new, STONE_DIAMOND_PAVERS);
-    public static final RegistryObject<Block, Block> STONE_LARGE_BRICKS_WALL = register("stone_large_bricks_wall", WallBlock::new, Blocks.STONE_BRICKS);
-    public static final RegistryObject<Block, Block> STONE_LARGE_BRICKS_CRACKED_WALL = register("stone_large_bricks_cracked_wall", WallBlock::new, Blocks.CRACKED_STONE_BRICKS);
-    public static final RegistryObject<Block, Block> STONE_LARGE_BRICKS_MOSSY_WALL = register("stone_large_bricks_mossy_wall", WallBlock::new, Blocks.MOSSY_STONE_BRICKS);
+    public static final RegistryObject<Block, Block> STONE_LARGE_BRICKS_WALL = register("stone_large_bricks_wall", WallBlock::new, () -> Blocks.STONE_BRICKS);
+    public static final RegistryObject<Block, Block> STONE_LARGE_BRICKS_CRACKED_WALL = register("stone_large_bricks_cracked_wall", WallBlock::new, () -> Blocks.CRACKED_STONE_BRICKS);
+    public static final RegistryObject<Block, Block> STONE_LARGE_BRICKS_MOSSY_WALL = register("stone_large_bricks_mossy_wall", WallBlock::new, () -> Blocks.MOSSY_STONE_BRICKS);
     public static final RegistryObject<Block, Block> GRANITE_CHISELED_WALL = register("granite_chiseled_wall", WallBlock::new, GRANITE_CHISELED);
     public static final RegistryObject<Block, Block> GRANITE_COBBLED_WALL = register("granite_cobbled_wall", WallBlock::new, GRANITE_COBBLED);
     public static final RegistryObject<Block, Block> GRANITE_COBBLED_MOSSY_WALL = register("granite_cobbled_mossy_wall", WallBlock::new, GRANITE_COBBLED_MOSSY);
@@ -397,9 +399,9 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> PRISMARINE_LARGE_BRICKS_CRACKED_SLAB = register("prismarine_large_bricks_cracked_slab", SlabBlock::new, PRISMARINE_LARGE_BRICKS_CRACKED);
     public static final RegistryObject<Block, Block> PRISMARINE_LARGE_BRICKS_MOSSY_SLAB = register("prismarine_large_bricks_mossy_slab", SlabBlock::new, PRISMARINE_LARGE_BRICKS_MOSSY);
     public static final RegistryObject<Block, Block> PRISMARINE_SMALL_BRICK_SLAB = register("prismarine_small_brick_slab", SlabBlock::new, PRISMARINE_SMALL_BRICK);
-    public static final RegistryObject<Block, Block> STONE_CHISELED_SLAB = register("stone_chiseled_slab", SlabBlock::new, Blocks.CHISELED_STONE_BRICKS);
+    public static final RegistryObject<Block, Block> STONE_CHISELED_SLAB = register("stone_chiseled_slab", SlabBlock::new, () -> Blocks.CHISELED_STONE_BRICKS);
     public static final RegistryObject<Block, Block> STONE_DIAMOND_PAVERS_SLAB = register("stone_diamond_pavers_slab", SlabBlock::new, STONE_DIAMOND_PAVERS);
-    public static final RegistryObject<Block, Block> STONE_LARGE_BRICKS_CRACKED_SLAB = register("stone_large_bricks_cracked_slab", SlabBlock::new, Blocks.CRACKED_STONE_BRICKS);
+    public static final RegistryObject<Block, Block> STONE_LARGE_BRICKS_CRACKED_SLAB = register("stone_large_bricks_cracked_slab", SlabBlock::new, () -> Blocks.CRACKED_STONE_BRICKS);
     public static final RegistryObject<Block, Block> GRANITE_CHISELED_SLAB = register("granite_chiseled_slab", SlabBlock::new, GRANITE_CHISELED);
     public static final RegistryObject<Block, Block> GRANITE_COBBLED_SLAB = register("granite_cobbled_slab", SlabBlock::new, GRANITE_COBBLED);
     public static final RegistryObject<Block, Block> GRANITE_COBBLED_MOSSY_SLAB = register("granite_cobbled_mossy_slab", SlabBlock::new, GRANITE_COBBLED_MOSSY);
@@ -417,27 +419,32 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> ANDESITE_LARGE_BRICKS_MOSSY_SLAB = register("andesite_large_bricks_mossy_slab", SlabBlock::new, ANDESITE_LARGE_BRICKS_MOSSY);
     public static final RegistryObject<Block, Block> ANDESITE_SMALL_BRICK_SLAB = register("andesite_small_brick_slab", SlabBlock::new, ANDESITE_SMALL_BRICK);
 
-    public static RegistryObject<Block, Block> register(String name, Function<BlockBehaviour.Properties, Block> factory, Block block) { //Only use, when basing on vanilla blocks
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(MasonryCommon.MOD_ID, name);
-        return register(id, BLOCK_DEFERRED.register(name, () -> factory.apply(BlockBehaviour.Properties.ofLegacyCopy(block).setId(ResourceKey.create(Registries.BLOCK, id)))));
-    }
-
     public static RegistryObject<Block, Block> register(String name, Function<BlockBehaviour.Properties, Block> factory, Supplier<Block> blockSupplier) {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(MasonryCommon.MOD_ID, name);
-        return register(id, BLOCK_DEFERRED.register(name, () -> factory.apply(BlockBehaviour.Properties.ofLegacyCopy(blockSupplier.get()).setId(ResourceKey.create(Registries.BLOCK, id)))));
+        ResourceLocation id = id(name);
+        RegistryObject<Block, Block> blockObject = register(id, BLOCK_DEFERRED.register(name, () -> factory.apply(BlockBehaviour.Properties.ofLegacyCopy(blockSupplier.get()).setId(blockKey(id)))));
+        BASED_ON.put(blockObject, blockSupplier);
+        return blockObject;
     }
 
     private static RegistryObject<Block, Block> register(String name, Function<BlockBehaviour.Properties, Block> factory, Block.Properties properties) {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(MasonryCommon.MOD_ID, name);
-        return register(id, BLOCK_DEFERRED.register(name, () -> factory.apply(properties.setId(ResourceKey.create(Registries.BLOCK, id)))));
+        ResourceLocation id = id(name);
+        return register(id, BLOCK_DEFERRED.register(name, () -> factory.apply(properties.setId(blockKey(id)))));
     }
 
     private static RegistryObject<Block, Block> register(ResourceLocation id, RegistryObject<Block, Block> block) {
-        RegistryObject<Item, Item> blockItem = ITEM_DEFERRED.register(id.getPath(), () -> new BlockItem(block.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM, id))));
+        RegistryObject<Item, BlockItem> blockItem = ITEM_DEFERRED.register(id.getPath(), () -> new BlockItem(block.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM, id)).useBlockDescriptionPrefix()));
         BLOCKS.add(block);
-        ITEMS_FOR_TAB_LIST.add(blockItem);
+        BLOCK_ITEMS.add(blockItem);
 
         return block;
+    }
+
+    public static ResourceLocation id (String name) {
+        return ResourceLocation.fromNamespaceAndPath(MasonryCommon.MOD_ID, name);
+    }
+
+    public static ResourceKey<Block> blockKey(ResourceLocation id) {
+        return ResourceKey.create(Registries.BLOCK, id);
     }
 
     //Needed to statically initialize fields
