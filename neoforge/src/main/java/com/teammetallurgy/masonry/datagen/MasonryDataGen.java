@@ -9,9 +9,9 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 public class MasonryDataGen {
 
     @SubscribeEvent
-    public static void onGatherData(GatherDataEvent event) {
+    public static void onGatherData(GatherDataEvent.Server event) {
         DataGenerator gen = event.getGenerator();
 
-        gen.addProvider(event.includeServer(), LootTableGen.create(gen.getPackOutput(), event.getLookupProvider()));
+        gen.addProvider(event.includeDev(), LootTableGen.create(gen.getPackOutput(), event.getLookupProvider()));
     }
 }

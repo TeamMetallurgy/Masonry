@@ -35,13 +35,13 @@ public class LootTableGen {
         protected Iterable<Block> getKnownBlocks() {
             return MasonryBlocks.BLOCK_DEFERRED.getEntries()
                     .stream()
-                    .map(RegistryObject::get)
+                    .map(e -> e.asHolder().value())
                     .toList();
         }
 
         @Override
         protected void generate() {
-            for (RegistryObject<Block> blockObject : MasonryBlocks.BLOCKS) {
+            for (RegistryObject<Block, Block> blockObject : MasonryBlocks.BLOCKS) {
                 Block block = blockObject.get();
                 if (block instanceof SlabBlock) {
                     this.add(block, this.createSlabItemTable(block));
