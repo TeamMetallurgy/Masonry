@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#masonry:andesite_wall",
+    "#masonry:dark_prismarine_wall",
+    "#masonry:diorite_wall",
+    "#masonry:end_stone_wall",
+    "#masonry:granite_wall",
+    "#masonry:netherrack_wall",
+    "#masonry:obsidian_wall",
+    "#masonry:prismarine_wall",
+    "#masonry:stone_wall"
+  ]
+}

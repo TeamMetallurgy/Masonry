@@ -1,15 +1,14 @@
 {
   "values": [
-    "#masonry:allandesite",
-    "#masonry:alldark_prismarine",
-    "#masonry:alldiorite",
-    "#masonry:allend_stone",
-    "#masonry:allgranite",
-    "#masonry:allnetherrack",
-    "#masonry:allobsidian",
-    "#masonry:allprismarine",
-    "#masonry:allobsidian",
-    "#masonry:allprismarine",
-    "#masonry:allstone"
+    "#masonry:andesite_cutables",
+    "#masonry:dark_prismarine_cutables",
+    "#masonry:diorite_cutables",
+    "#masonry:end_stone_cutables",
+    "#masonry:granite_cutables",
+    "#masonry:netherrack_cutables",
+    "#masonry:obsidian_cutables",
+    "#masonry:prismarine_cutables",
+    "#masonry:stone_cutables",
+    "#masonry:slabs"
   ]
 }
