@@ -54,18 +54,18 @@ public class MasonryModelProvider extends ModelProvider {
                 TexturedModel cube = TexturedModel.CUBE.get(MasonryBlocks.BASED_ON.get(blockObject).get());
                 ResourceLocation slabBottom = ModelTemplates.SLAB_BOTTOM.create(block, cube.getMapping(), blockModels.modelOutput);
                 ResourceLocation slabTop = ModelTemplates.SLAB_TOP.create(block, cube.getMapping(), blockModels.modelOutput);
-                blockModels.blockStateOutput.accept(BlockModelGenerators.createSlab(block, slabBottom, slabTop, baseBlock));
+                //blockModels.blockStateOutput.accept(BlockModelGenerators.createSlab(block, slabBottom, slabTop, baseBlock));
             } else if (block instanceof WallBlock) {
                 TextureMapping baseBlock = TextureMapping.cube(MasonryBlocks.BASED_ON.get(blockObject).get());
                 ResourceLocation wallPost = ModelTemplates.WALL_POST.create(block, baseBlock, blockModels.modelOutput);
                 ResourceLocation wallLowSide = ModelTemplates.WALL_LOW_SIDE.create(block, baseBlock, blockModels.modelOutput);
                 ResourceLocation wallTallSide = ModelTemplates.WALL_TALL_SIDE.create(block, baseBlock, blockModels.modelOutput);
-                blockModels.blockStateOutput.accept(BlockModelGenerators.createWall(block, wallPost, wallLowSide, wallTallSide));
+                //blockModels.blockStateOutput.accept(BlockModelGenerators.createWall(block, wallPost, wallLowSide, wallTallSide));
                 //ResourceLocation wallInventory = ModelTemplates.WALL_INVENTORY.create(block, baseBlock, blockModels.modelOutput);
                 //blockModels.registerSimpleItemModel(block, wallInventory);
             } else if (block instanceof RotatedPillarBlock) {
                 ResourceLocation location = TexturedModel.COLUMN_ALT.create(block, blockModels.modelOutput);
-                blockModels.blockStateOutput.accept(BlockModelGenerators.createRotatedPillarWithHorizontalVariant(block, location, location));
+                //blockModels.blockStateOutput.accept(BlockModelGenerators.createRotatedPillarWithHorizontalVariant(block, location, location));
             } else if (block instanceof GlazedTerracottaBlock) {
                 blockModels.createColoredBlockWithStateRotations(TexturedModel.GLAZED_TERRACOTTA, block);
             } else {
