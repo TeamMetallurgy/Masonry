@@ -76,7 +76,7 @@ task publishCurseForge(type: net.darkhax.curseforgegradle.TaskPublishCurseForge)
     mainFile.changelogType = 'markdown'
     mainFile.changelog = rootProject.findProperty('mod_changelog')
     mainFile.addJavaVersion('Java 21')
-    mainFile.releaseType = 'release'
+    mainFile.releaseType = 'beta'
     mainFile.addModLoader('NeoForge')
     def vr = rootProject.parseVersionRange(minecraft_version_range)
     mainFile.addGameVersion(*vr.quoted)
@@ -90,7 +90,7 @@ modrinth {
     changelog = changelogText
     versionNumber = "${version}"
     versionName = "${mod_name}-neoforge-${minecraft_version}-${version}"
-    versionType = "release"
+    versionType = "beta"
     loaders = ["neoforge"]
     gameVersions = rootProject.parseVersionRange(minecraft_version_range).list
     uploadFile = jar
