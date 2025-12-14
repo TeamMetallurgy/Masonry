@@ -6,8 +6,8 @@ import com.teammetallurgy.masonry.registration.RegistrationProvider;
 import com.teammetallurgy.masonry.registration.RegistryObject;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -420,18 +420,18 @@ public class MasonryBlocks {
     public static final RegistryObject<Block, Block> ANDESITE_SMALL_BRICK_SLAB = register("andesite_small_brick_slab", SlabBlock::new, ANDESITE_SMALL_BRICK);
 
     public static RegistryObject<Block, Block> register(String name, Function<BlockBehaviour.Properties, Block> factory, Supplier<Block> blockSupplier) {
-        ResourceLocation id = id(name);
+        Identifier id = id(name);
         RegistryObject<Block, Block> blockObject = register(id, BLOCK_DEFERRED.register(name, () -> factory.apply(BlockBehaviour.Properties.ofLegacyCopy(blockSupplier.get()).setId(blockKey(id)))));
         BASED_ON.put(blockObject, blockSupplier);
         return blockObject;
     }
 
     private static RegistryObject<Block, Block> register(String name, Function<BlockBehaviour.Properties, Block> factory, Block.Properties properties) {
-        ResourceLocation id = id(name);
+        Identifier id = id(name);
         return register(id, BLOCK_DEFERRED.register(name, () -> factory.apply(properties.setId(blockKey(id)))));
     }
 
-    private static RegistryObject<Block, Block> register(ResourceLocation id, RegistryObject<Block, Block> block) {
+    private static RegistryObject<Block, Block> register(Identifier id, RegistryObject<Block, Block> block) {
         RegistryObject<Item, BlockItem> blockItem = ITEM_DEFERRED.register(id.getPath(), () -> new BlockItem(block.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM, id)).useBlockDescriptionPrefix()));
         BLOCKS.add(block);
         BLOCK_ITEMS.add(blockItem);
@@ -439,11 +439,11 @@ public class MasonryBlocks {
         return block;
     }
 
-    public static ResourceLocation id (String name) {
-        return ResourceLocation.fromNamespaceAndPath(MasonryCommon.MOD_ID, name);
+    public static Identifier id (String name) {
+        return Identifier.fromNamespaceAndPath(MasonryCommon.MOD_ID, name);
     }
 
-    public static ResourceKey<Block> blockKey(ResourceLocation id) {
+    public static ResourceKey<Block> blockKey(Identifier id) {
         return ResourceKey.create(Registries.BLOCK, id);
     }
 
