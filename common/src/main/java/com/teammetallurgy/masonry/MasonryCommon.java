@@ -13,11 +13,12 @@ public class MasonryCommon {
     public static final String MOD_ID = "masonry";
 
     public static final RegistrationProvider<CreativeModeTab> CREATIVE_TABS = RegistrationProvider.get(BuiltInRegistries.CREATIVE_MODE_TAB, Constants.MOD_ID);
+
     public static final RegistryObject<CreativeModeTab, CreativeModeTab> GROUP = CREATIVE_TABS.register("tab", () -> new CreativeModeTab.Builder(CreativeModeTab.Row.TOP, 0)
             .icon(() -> new ItemStack(Blocks.STONECUTTER))
             .title(Component.translatable("tabs." + Constants.MOD_ID + ".tab"))
-            .displayItems((featureFlagSet, tabOutput) -> {
-                MasonryBlocks.BLOCK_ITEMS.forEach(registryObject -> tabOutput.accept(new ItemStack(registryObject.get())));
+            .displayItems((parameters, buildingBlocks) -> {
+                MasonryBlocks.BLOCK_ITEMS.forEach(registryObject -> buildingBlocks.accept(new ItemStack(registryObject.get())));
             }).build()
     );
 

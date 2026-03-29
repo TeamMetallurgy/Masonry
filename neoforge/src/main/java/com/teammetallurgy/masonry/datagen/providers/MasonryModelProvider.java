@@ -6,23 +6,21 @@ import com.teammetallurgy.masonry.registration.RegistryObject;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
-import net.minecraft.client.data.models.blockstates.*;
 import net.minecraft.client.data.models.model.ModelLocationUtils;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.client.data.models.model.TextureMapping;
 import net.minecraft.client.data.models.model.TexturedModel;
-import net.minecraft.client.renderer.item.BlockModelWrapper;
 import net.minecraft.client.renderer.item.ClientItem;
-import net.minecraft.core.Direction;
+import net.minecraft.client.renderer.item.CuboidItemModelWrapper;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 
 import javax.annotation.Nonnull;
 import java.util.Collections;
+import java.util.Optional;
 
 public class MasonryModelProvider extends ModelProvider {
 
@@ -38,10 +36,10 @@ public class MasonryModelProvider extends ModelProvider {
             //"Client Items". Located in assets/items/
             if (block instanceof WallBlock) {
                 itemModels.itemModelOutput.register(itemBlock,
-                        new ClientItem(new BlockModelWrapper.Unbaked(ModelLocationUtils.getModelLocation(itemBlock), Collections.emptyList()), ClientItem.Properties.DEFAULT));
+                        new ClientItem(new CuboidItemModelWrapper.Unbaked(ModelLocationUtils.getModelLocation(itemBlock), Optional.empty(),  Collections.emptyList()), ClientItem.Properties.DEFAULT));
             } else {
                 itemModels.itemModelOutput.register(itemBlock,
-                        new ClientItem(new BlockModelWrapper.Unbaked(ModelLocationUtils.getModelLocation(block), Collections.emptyList()), ClientItem.Properties.DEFAULT));
+                        new ClientItem(new CuboidItemModelWrapper.Unbaked(ModelLocationUtils.getModelLocation(block), Optional.empty(), Collections.emptyList()), ClientItem.Properties.DEFAULT));
             }
         }
         //Generates blockstates and block models - NOT FULLY WORKING

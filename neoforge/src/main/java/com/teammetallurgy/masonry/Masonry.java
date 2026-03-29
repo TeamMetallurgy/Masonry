@@ -15,6 +15,7 @@ public class Masonry {
     }
 
     public void setupCommon(final FMLCommonSetupEvent event) {
+
     }
 
     public void setupClient(final FMLClientSetupEvent event) {
