@@ -63,7 +63,7 @@ public class MasonryModelProvider extends ModelProvider {
                 Identifier location = TexturedModel.COLUMN_ALT.create(block, blockModels.modelOutput);
                 //blockModels.blockStateOutput.accept(BlockModelGenerators.createRotatedPillarWithHorizontalVariant(block, location, location));
             } else if (block instanceof GlazedTerracottaBlock) {
-                blockModels.createColoredBlockWithStateRotations(TexturedModel.GLAZED_TERRACOTTA, block);
+                //blockModels.createColoredBlockWithStateRotations(TexturedModel.GLAZED_TERRACOTTA, block);
             } else {
                 blockModels.createTrivialCube(block);
             }
